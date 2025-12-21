@@ -1,0 +1,5211 @@
+{
+  "996": {
+    "game_id": "996",
+    "game_name": "$1,000,000 Triple Play",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "1000000-triple-play",
+    "guid": "70fe3e73-c46b-4f54-826f-2909e9f21bcd",
+    "product_key": "1000000-triple-play",
+    "overall_odds": "3.84",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,469,394",
+        "total": "5"
+      },
+      {
+        "value": "$50,000",
+        "odds": "1,469,394",
+        "total": "5"
+      },
+      {
+        "value": "$5,000",
+        "odds": "367,348.5",
+        "total": "20"
+      },
+      {
+        "value": "$1,000",
+        "odds": "39,079.63",
+        "total": "188"
+      },
+      {
+        "value": "$500",
+        "odds": "3,001.21",
+        "total": "2448"
+      },
+      {
+        "value": "$200",
+        "odds": "2,001.9",
+        "total": "3670"
+      },
+      {
+        "value": "$100",
+        "odds": "60.01",
+        "total": "122422"
+      },
+      {
+        "value": "$50",
+        "odds": "41.89",
+        "total": "175383"
+      },
+      {
+        "value": "$40",
+        "odds": "80.02",
+        "total": "91813"
+      },
+      {
+        "value": "$20",
+        "odds": "9.37",
+        "total": "783697"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "734620"
+      }
+    ]
+  },
+  "995": {
+    "game_id": "995",
+    "game_name": "$200,000 Triple Play",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "200000-triple-play",
+    "guid": "3f4d3ba4-db54-4bb3-b4ed-d4f0e37f3511",
+    "product_key": "200000-triple-play",
+    "overall_odds": "4.32",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,689,360",
+        "total": "4"
+      },
+      {
+        "value": "$5,000",
+        "odds": "844,680",
+        "total": "8"
+      },
+      {
+        "value": "$1,000",
+        "odds": "58,253.79",
+        "total": "116"
+      },
+      {
+        "value": "$500",
+        "odds": "12,023.91",
+        "total": "562"
+      },
+      {
+        "value": "$200",
+        "odds": "7,921.97",
+        "total": "853"
+      },
+      {
+        "value": "$100",
+        "odds": "600.34",
+        "total": "11256"
+      },
+      {
+        "value": "$50",
+        "odds": "59.91",
+        "total": "112789"
+      },
+      {
+        "value": "$30",
+        "odds": "61.03",
+        "total": "110722"
+      },
+      {
+        "value": "$20",
+        "odds": "60.03",
+        "total": "112568"
+      },
+      {
+        "value": "$15",
+        "odds": "150.11",
+        "total": "45018"
+      },
+      {
+        "value": "$10",
+        "odds": "11.11",
+        "total": "608357"
+      },
+      {
+        "value": "$5",
+        "odds": "12",
+        "total": "563064"
+      }
+    ]
+  },
+  "994": {
+    "game_id": "994",
+    "game_name": "$25,000 Triple Play",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "25000-triple-play",
+    "guid": "fa82fd16-c2d5-4d35-bf79-e5ecce415ef8",
+    "product_key": "25000-triple-play",
+    "overall_odds": "4.59",
+    "prizes": [
+      {
+        "value": "$25,000",
+        "odds": "1,710,637.5",
+        "total": "4"
+      },
+      {
+        "value": "$3,000",
+        "odds": "855,318.75",
+        "total": "8"
+      },
+      {
+        "value": "$1,000",
+        "odds": "235,950",
+        "total": "29"
+      },
+      {
+        "value": "$500",
+        "odds": "46,866.78",
+        "total": "146"
+      },
+      {
+        "value": "$100",
+        "odds": "4,394.7",
+        "total": "1557"
+      },
+      {
+        "value": "$50",
+        "odds": "2,997.17",
+        "total": "2283"
+      },
+      {
+        "value": "$40",
+        "odds": "1,988.54",
+        "total": "3441"
+      },
+      {
+        "value": "$20",
+        "odds": "37.5",
+        "total": "182468"
+      },
+      {
+        "value": "$10",
+        "odds": "60.01",
+        "total": "114027"
+      },
+      {
+        "value": "$5",
+        "odds": "74.97",
+        "total": "91265"
+      },
+      {
+        "value": "$4",
+        "odds": "13.64",
+        "total": "501814"
+      },
+      {
+        "value": "$2",
+        "odds": "11.54",
+        "total": "592967"
+      }
+    ]
+  },
+  "993": {
+    "game_id": "993",
+    "game_name": "$5,000 Triple Play",
+    "ticket_price": "$1",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "5000-triple-play",
+    "guid": "2df97a85-2a2e-4d5f-a2a4-b145b6ee5ff1",
+    "product_key": "5000-triple-play",
+    "overall_odds": "4.79",
+    "prizes": [
+      {
+        "value": "$5,000",
+        "odds": "1,396,500",
+        "total": "6"
+      },
+      {
+        "value": "$500",
+        "odds": "418,950",
+        "total": "20"
+      },
+      {
+        "value": "$100",
+        "odds": "9,927.73",
+        "total": "844"
+      },
+      {
+        "value": "$50",
+        "odds": "4,038.07",
+        "total": "2075"
+      },
+      {
+        "value": "$30",
+        "odds": "3,971.09",
+        "total": "2110"
+      },
+      {
+        "value": "$20",
+        "odds": "749.26",
+        "total": "11183"
+      },
+      {
+        "value": "$10",
+        "odds": "60.01",
+        "total": "139616"
+      },
+      {
+        "value": "$5",
+        "odds": "49.99",
+        "total": "167614"
+      },
+      {
+        "value": "$4",
+        "odds": "100.01",
+        "total": "83784"
+      },
+      {
+        "value": "$2",
+        "odds": "13.04",
+        "total": "642382"
+      },
+      {
+        "value": "$1",
+        "odds": "12",
+        "total": "698240"
+      }
+    ]
+  },
+  "992": {
+    "game_id": "992",
+    "game_name": "$2 MILLION VAULT",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "2-million-vault",
+    "guid": "de77b34b-02de-4c92-ad8e-e5902cd51abf",
+    "product_key": "2-million-vault",
+    "overall_odds": "3.35",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,729,430",
+        "total": "3"
+      },
+      {
+        "value": "$100,000",
+        "odds": "864,715",
+        "total": "6"
+      },
+      {
+        "value": "$10,000",
+        "odds": "216,178.75",
+        "total": "24"
+      },
+      {
+        "value": "$5,000",
+        "odds": "58,957.84",
+        "total": "88"
+      },
+      {
+        "value": "$2,000",
+        "odds": "39,009.7",
+        "total": "133"
+      },
+      {
+        "value": "$500",
+        "odds": "1,600.83",
+        "total": "3241"
+      },
+      {
+        "value": "$200",
+        "odds": "170.28",
+        "total": "30469"
+      },
+      {
+        "value": "$100",
+        "odds": "20",
+        "total": "259364"
+      },
+      {
+        "value": "$50",
+        "odds": "20",
+        "total": "259419"
+      },
+      {
+        "value": "$40",
+        "odds": "30",
+        "total": "172970"
+      },
+      {
+        "value": "$30",
+        "odds": "20",
+        "total": "259374"
+      },
+      {
+        "value": "$20",
+        "odds": "9.23",
+        "total": "562052"
+      }
+    ]
+  },
+  "991": {
+    "game_id": "991",
+    "game_name": "SPICY HOT RICHES",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "spicy-hot-riches",
+    "guid": "30016e8e-fcd0-492c-8df4-34593104b30f",
+    "product_key": "spicy-hot-riches",
+    "overall_odds": "4.28",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,680,615",
+        "total": "4"
+      },
+      {
+        "value": "$10,000",
+        "odds": "840,307.5",
+        "total": "8"
+      },
+      {
+        "value": "$1,000",
+        "odds": "54,654.15",
+        "total": "123"
+      },
+      {
+        "value": "$500",
+        "odds": "14,872.7",
+        "total": "452"
+      },
+      {
+        "value": "$150",
+        "odds": "4,794.91",
+        "total": "1402"
+      },
+      {
+        "value": "$100",
+        "odds": "297.27",
+        "total": "22614"
+      },
+      {
+        "value": "$50",
+        "odds": "99.86",
+        "total": "67319"
+      },
+      {
+        "value": "$30",
+        "odds": "59.98",
+        "total": "112083"
+      },
+      {
+        "value": "$20",
+        "odds": "37.5",
+        "total": "179272"
+      },
+      {
+        "value": "$15",
+        "odds": "100.06",
+        "total": "67182"
+      },
+      {
+        "value": "$10",
+        "odds": "13.04",
+        "total": "515426"
+      },
+      {
+        "value": "$5",
+        "odds": "11.11",
+        "total": "604999"
+      }
+    ]
+  },
+  "990": {
+    "game_id": "990",
+    "game_name": "LADY LUCK",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "lady-luck",
+    "guid": "e27c1da5-1150-469b-bfb2-83d41fc812f4",
+    "product_key": "lady-luck",
+    "overall_odds": "4.58",
+    "prizes": [
+      {
+        "value": "$20,000",
+        "odds": "1,636,275",
+        "total": "4"
+      },
+      {
+        "value": "$1,000",
+        "odds": "218,170",
+        "total": "30"
+      },
+      {
+        "value": "$500",
+        "odds": "38,958.93",
+        "total": "168"
+      },
+      {
+        "value": "$100",
+        "odds": "3,870.55",
+        "total": "1691"
+      },
+      {
+        "value": "$50",
+        "odds": "2,067.96",
+        "total": "3165"
+      },
+      {
+        "value": "$20",
+        "odds": "57.7",
+        "total": "113434"
+      },
+      {
+        "value": "$10",
+        "odds": "25",
+        "total": "261846"
+      },
+      {
+        "value": "$5",
+        "odds": "50",
+        "total": "130896"
+      },
+      {
+        "value": "$4",
+        "odds": "16.67",
+        "total": "392700"
+      },
+      {
+        "value": "$2",
+        "odds": "12.5",
+        "total": "523569"
+      }
+    ]
+  },
+  "989": {
+    "game_id": "989",
+    "game_name": "Maximum Money Blowout",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "maximum-money-blowout",
+    "guid": "5f356d20-6985-48d5-ab5a-5029bf0d86ca",
+    "product_key": "maximum-money-blowout",
+    "overall_odds": "9.88",
+    "prizes": [
+      {
+        "value": "$2,000",
+        "odds": "801.81",
+        "total": "6166"
+      },
+      {
+        "value": "$200",
+        "odds": "39.97",
+        "total": "123684"
+      },
+      {
+        "value": "$100",
+        "odds": "13.34",
+        "total": "370713"
+      }
+    ]
+  },
+  "988": {
+    "game_id": "988",
+    "game_name": "Emerald 10's",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "emarld-10s",
+    "guid": "4757e523-a37b-49da-a317-b3f758930057",
+    "product_key": "emerald-10s",
+    "overall_odds": "3.80",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,472,730",
+        "total": "5"
+      },
+      {
+        "value": "$50,000",
+        "odds": "736,365",
+        "total": "10"
+      },
+      {
+        "value": "$5,000",
+        "odds": "368,182.5",
+        "total": "20"
+      },
+      {
+        "value": "$2,000",
+        "odds": "58,441.67",
+        "total": "126"
+      },
+      {
+        "value": "$500",
+        "odds": "4,732.42",
+        "total": "1556"
+      },
+      {
+        "value": "$200",
+        "odds": "1,992.33",
+        "total": "3696"
+      },
+      {
+        "value": "$100",
+        "odds": "59.99",
+        "total": "122741"
+      },
+      {
+        "value": "$50",
+        "odds": "48.02",
+        "total": "153343"
+      },
+      {
+        "value": "$40",
+        "odds": "54.19",
+        "total": "135874"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "736305"
+      },
+      {
+        "value": "$10",
+        "odds": "9.37",
+        "total": "785567"
+      }
+    ]
+  },
+  "987": {
+    "game_id": "987",
+    "game_name": "Prize Link Multiplier",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "prize-link-multiplier",
+    "guid": "c4601773-ff90-4384-a00f-b1568e352a62",
+    "product_key": "prize-link-multiplier",
+    "overall_odds": "4.31",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,234,116",
+        "total": "5"
+      },
+      {
+        "value": "$10,000",
+        "odds": "617,058",
+        "total": "10"
+      },
+      {
+        "value": "$5,000",
+        "odds": "411,372",
+        "total": "15"
+      },
+      {
+        "value": "$1,000",
+        "odds": "154,264.5",
+        "total": "40"
+      },
+      {
+        "value": "$500",
+        "odds": "24,682.32",
+        "total": "250"
+      },
+      {
+        "value": "$250",
+        "odds": "6,341.81",
+        "total": "973"
+      },
+      {
+        "value": "$100",
+        "odds": "399.86",
+        "total": "15432"
+      },
+      {
+        "value": "$50",
+        "odds": "60",
+        "total": "102843"
+      },
+      {
+        "value": "$25",
+        "odds": "80.06",
+        "total": "77078"
+      },
+      {
+        "value": "$20",
+        "odds": "47.98",
+        "total": "128608"
+      },
+      {
+        "value": "$10",
+        "odds": "10.43",
+        "total": "591429"
+      },
+      {
+        "value": "$5",
+        "odds": "12",
+        "total": "514075"
+      }
+    ]
+  },
+  "986": {
+    "game_id": "986",
+    "game_name": "Hit $100",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "hit-100",
+    "guid": "fe6452db-722b-4bf5-bd11-6f85521a4d46",
+    "product_key": "hit-100",
+    "overall_odds": "4.67",
+    "prizes": [
+      {
+        "value": "$20,000",
+        "odds": "1,698,787.5",
+        "total": "4"
+      },
+      {
+        "value": "$100",
+        "odds": "385.96",
+        "total": "17606"
+      },
+      {
+        "value": "$50",
+        "odds": "14,613.23",
+        "total": "465"
+      },
+      {
+        "value": "$20",
+        "odds": "99.96",
+        "total": "67977"
+      },
+      {
+        "value": "$15",
+        "odds": "599.48",
+        "total": "11335"
+      },
+      {
+        "value": "$10",
+        "odds": "33.34",
+        "total": "203784"
+      },
+      {
+        "value": "$5",
+        "odds": "60.01",
+        "total": "113227"
+      },
+      {
+        "value": "$4",
+        "odds": "14.63",
+        "total": "464390"
+      },
+      {
+        "value": "$2",
+        "odds": "11.76",
+        "total": "577584"
+      }
+    ]
+  },
+  "985": {
+    "game_id": "985",
+    "game_name": "MAX-A-MILLION",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "max-a-million",
+    "guid": "bc5cc6e6-215d-4439-a29f-1de2fef02dda",
+    "product_key": "max-a-million",
+    "overall_odds": "2.95",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "363,970.8",
+        "total": "25"
+      },
+      {
+        "value": "$100,000",
+        "odds": "909,927",
+        "total": "10"
+      },
+      {
+        "value": "$20,000",
+        "odds": "454,963.5",
+        "total": "20"
+      },
+      {
+        "value": "$5,000",
+        "odds": "227,481.75",
+        "total": "40"
+      },
+      {
+        "value": "$1,000",
+        "odds": "12,036.07",
+        "total": "756"
+      },
+      {
+        "value": "$500",
+        "odds": "1,199.48",
+        "total": "7586"
+      },
+      {
+        "value": "$300",
+        "odds": "300.11",
+        "total": "30320"
+      },
+      {
+        "value": "$200",
+        "odds": "33.33",
+        "total": "273002"
+      },
+      {
+        "value": "$100",
+        "odds": "40.01",
+        "total": "227427"
+      },
+      {
+        "value": "$60",
+        "odds": "30",
+        "total": "303309"
+      },
+      {
+        "value": "$50",
+        "odds": "15",
+        "total": "606504"
+      },
+      {
+        "value": "$40",
+        "odds": "12.5",
+        "total": "728042"
+      },
+      {
+        "value": "$30",
+        "odds": "10",
+        "total": "910010"
+      }
+    ]
+  },
+  "984": {
+    "game_id": "984",
+    "game_name": "Lucky Loteria\u00ae",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "lucky-loteria",
+    "guid": "27e653c4-e452-48ef-8205-03a0a447cec4",
+    "product_key": "lucky-loteria",
+    "overall_odds": "3.63",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,208,857.5",
+        "total": "4"
+      },
+      {
+        "value": "$10,000",
+        "odds": "402,952.5",
+        "total": "12"
+      },
+      {
+        "value": "$5,000",
+        "odds": "302,214.38",
+        "total": "16"
+      },
+      {
+        "value": "$1,000",
+        "odds": "29,305.64",
+        "total": "165"
+      },
+      {
+        "value": "$500",
+        "odds": "4,600.79",
+        "total": "1051"
+      },
+      {
+        "value": "$200",
+        "odds": "2,392.59",
+        "total": "2021"
+      },
+      {
+        "value": "$100",
+        "odds": "74.94",
+        "total": "64523"
+      },
+      {
+        "value": "$50",
+        "odds": "50.03",
+        "total": "96658"
+      },
+      {
+        "value": "$40",
+        "odds": "149.88",
+        "total": "32261"
+      },
+      {
+        "value": "$30",
+        "odds": "37.51",
+        "total": "128920"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "483481"
+      },
+      {
+        "value": "$10",
+        "odds": "9.23",
+        "total": "523959"
+      }
+    ]
+  },
+  "983": {
+    "game_id": "983",
+    "game_name": "Lucky $50s",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "lucky-50s",
+    "guid": "bc4dbe1f-a1a1-4fd0-bfcd-04470a9e9557",
+    "product_key": "lucky-50s",
+    "overall_odds": "3.93",
+    "prizes": [
+      {
+        "value": "$50",
+        "odds": "59.1",
+        "total": "102814"
+      },
+      {
+        "value": "$20",
+        "odds": "17.14",
+        "total": "354446"
+      },
+      {
+        "value": "$10",
+        "odds": "9.23",
+        "total": "658497"
+      },
+      {
+        "value": "$5",
+        "odds": "14.12",
+        "total": "430309"
+      }
+    ]
+  },
+  "982": {
+    "game_id": "982",
+    "game_name": "Lucky 7s",
+    "ticket_price": "$1",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "lucky-7s",
+    "guid": "ad78a626-3bae-4b07-9411-c3620bc0ff57",
+    "product_key": "lucky-7s",
+    "overall_odds": "4.83",
+    "prizes": [
+      {
+        "value": "$7,000",
+        "odds": "1,478,185.71",
+        "total": "7"
+      },
+      {
+        "value": "$500",
+        "odds": "739,092.86",
+        "total": "14"
+      },
+      {
+        "value": "$300",
+        "odds": "235,165.91",
+        "total": "44"
+      },
+      {
+        "value": "$200",
+        "odds": "117,582.95",
+        "total": "88"
+      },
+      {
+        "value": "$100",
+        "odds": "11,718.35",
+        "total": "883"
+      },
+      {
+        "value": "$50",
+        "odds": "5,500.96",
+        "total": "1881"
+      },
+      {
+        "value": "$40",
+        "odds": "4,009.03",
+        "total": "2581"
+      },
+      {
+        "value": "$30",
+        "odds": "1,926.87",
+        "total": "5370"
+      },
+      {
+        "value": "$20",
+        "odds": "600.57",
+        "total": "17229"
+      },
+      {
+        "value": "$10",
+        "odds": "66.63",
+        "total": "155293"
+      },
+      {
+        "value": "$6",
+        "odds": "70.61",
+        "total": "146542"
+      },
+      {
+        "value": "$3",
+        "odds": "54.55",
+        "total": "189689"
+      },
+      {
+        "value": "$2",
+        "odds": "13.05",
+        "total": "793096"
+      },
+      {
+        "value": "$1",
+        "odds": "12.5",
+        "total": "827976"
+      }
+    ]
+  },
+  "981": {
+    "game_id": "981",
+    "game_name": "50X The Cash",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "50x-the-cash",
+    "guid": "529532f2-af4e-42a1-babc-fdb157b55a29",
+    "product_key": "50x-the-cash",
+    "overall_odds": "3.75",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,647,105",
+        "total": "6"
+      },
+      {
+        "value": "$50,000",
+        "odds": "1,235,328.75",
+        "total": "8"
+      },
+      {
+        "value": "$10,000",
+        "odds": "494,131.5",
+        "total": "20"
+      },
+      {
+        "value": "$5,000",
+        "odds": "247,065.75",
+        "total": "40"
+      },
+      {
+        "value": "$1,000",
+        "odds": "29,238.55",
+        "total": "338"
+      },
+      {
+        "value": "$500",
+        "odds": "2,402.19",
+        "total": "4114"
+      },
+      {
+        "value": "$200",
+        "odds": "2,005",
+        "total": "4929"
+      },
+      {
+        "value": "$100",
+        "odds": "79.87",
+        "total": "123739"
+      },
+      {
+        "value": "$50",
+        "odds": "30",
+        "total": "329421"
+      },
+      {
+        "value": "$40",
+        "odds": "149.77",
+        "total": "65984"
+      },
+      {
+        "value": "$30",
+        "odds": "150.4",
+        "total": "65709"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "988217"
+      },
+      {
+        "value": "$10",
+        "odds": "9.37",
+        "total": "1054183"
+      }
+    ]
+  },
+  "980": {
+    "game_id": "980",
+    "game_name": "20X The Cash",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "20x-the-cash",
+    "guid": "b1f6bd92-3185-4edc-9c35-8812c207e4f4",
+    "product_key": "20x-the-cash",
+    "overall_odds": "4.33",
+    "prizes": [
+      {
+        "value": "$250,000",
+        "odds": "1,456,185",
+        "total": "8"
+      },
+      {
+        "value": "$10,000",
+        "odds": "728,092.5",
+        "total": "16"
+      },
+      {
+        "value": "$1,000",
+        "odds": "58,835.76",
+        "total": "198"
+      },
+      {
+        "value": "$500",
+        "odds": "17,284.09",
+        "total": "674"
+      },
+      {
+        "value": "$100",
+        "odds": "150.01",
+        "total": "77656"
+      },
+      {
+        "value": "$50",
+        "odds": "149.96",
+        "total": "77682"
+      },
+      {
+        "value": "$40",
+        "odds": "400.12",
+        "total": "29115"
+      },
+      {
+        "value": "$30",
+        "odds": "150.09",
+        "total": "77617"
+      },
+      {
+        "value": "$20",
+        "odds": "34.3",
+        "total": "339676"
+      },
+      {
+        "value": "$10",
+        "odds": "11.43",
+        "total": "1019608"
+      },
+      {
+        "value": "$5",
+        "odds": "10.91",
+        "total": "1067714"
+      }
+    ]
+  },
+  "979": {
+    "game_id": "979",
+    "game_name": "15X Cashword",
+    "ticket_price": "$3",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "15x-cashword",
+    "guid": "26eb58da-426c-454b-92a7-0e77baa98d74",
+    "product_key": "15x-cashword",
+    "overall_odds": "3.90",
+    "prizes": [
+      {
+        "value": "$75,000",
+        "odds": "1,218,233.33",
+        "total": "6"
+      },
+      {
+        "value": "$5,000",
+        "odds": "609,116.67",
+        "total": "12"
+      },
+      {
+        "value": "$500",
+        "odds": "58,475.2",
+        "total": "125"
+      },
+      {
+        "value": "$300",
+        "odds": "38,879.79",
+        "total": "188"
+      },
+      {
+        "value": "$150",
+        "odds": "12,101.66",
+        "total": "604"
+      },
+      {
+        "value": "$100",
+        "odds": "1,004.31",
+        "total": "7278"
+      },
+      {
+        "value": "$50",
+        "odds": "625.64",
+        "total": "11683"
+      },
+      {
+        "value": "$45",
+        "odds": "1,008.19",
+        "total": "7250"
+      },
+      {
+        "value": "$30",
+        "odds": "399.77",
+        "total": "18284"
+      },
+      {
+        "value": "$20",
+        "odds": "55.56",
+        "total": "131550"
+      },
+      {
+        "value": "$10",
+        "odds": "23.81",
+        "total": "306998"
+      },
+      {
+        "value": "$6",
+        "odds": "24.99",
+        "total": "292466"
+      },
+      {
+        "value": "$5",
+        "odds": "16.67",
+        "total": "438581"
+      },
+      {
+        "value": "$3",
+        "odds": "11.11",
+        "total": "657755"
+      }
+    ]
+  },
+  "978": {
+    "game_id": "978",
+    "game_name": "10X The Cash",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "10x-the-cash",
+    "guid": "d627298f-ec83-4619-a708-4419790eb716",
+    "product_key": "10x-the-cash",
+    "overall_odds": "4.69",
+    "prizes": [
+      {
+        "value": "$50,000",
+        "odds": "1,421,300",
+        "total": "6"
+      },
+      {
+        "value": "$5,000",
+        "odds": "1,421,300",
+        "total": "6"
+      },
+      {
+        "value": "$500",
+        "odds": "78,961.11",
+        "total": "108"
+      },
+      {
+        "value": "$100",
+        "odds": "5,963.5",
+        "total": "1430"
+      },
+      {
+        "value": "$50",
+        "odds": "3,364.02",
+        "total": "2535"
+      },
+      {
+        "value": "$40",
+        "odds": "2,368.83",
+        "total": "3600"
+      },
+      {
+        "value": "$30",
+        "odds": "1,211.16",
+        "total": "7041"
+      },
+      {
+        "value": "$20",
+        "odds": "42.85",
+        "total": "199027"
+      },
+      {
+        "value": "$10",
+        "odds": "42.86",
+        "total": "198962"
+      },
+      {
+        "value": "$5",
+        "odds": "66.7",
+        "total": "127861"
+      },
+      {
+        "value": "$4",
+        "odds": "15",
+        "total": "568331"
+      },
+      {
+        "value": "$2",
+        "odds": "12",
+        "total": "710816"
+      }
+    ]
+  },
+  "977": {
+    "game_id": "977",
+    "game_name": "5X The Cash",
+    "ticket_price": "$1",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "5x-the-cash",
+    "guid": "8b6ec3de-a0fc-4f52-967c-d6e606cb2bae",
+    "product_key": "5x-the-cash",
+    "overall_odds": "4.86",
+    "prizes": [
+      {
+        "value": "$10,000",
+        "odds": "1,429,912.5",
+        "total": "8"
+      },
+      {
+        "value": "$500",
+        "odds": "233,455.1",
+        "total": "49"
+      },
+      {
+        "value": "$100",
+        "odds": "8,027.58",
+        "total": "1425"
+      },
+      {
+        "value": "$40",
+        "odds": "3,787.85",
+        "total": "3020"
+      },
+      {
+        "value": "$30",
+        "odds": "2,412.34",
+        "total": "4742"
+      },
+      {
+        "value": "$20",
+        "odds": "599.01",
+        "total": "19097"
+      },
+      {
+        "value": "$10",
+        "odds": "74.99",
+        "total": "152538"
+      },
+      {
+        "value": "$5",
+        "odds": "37.51",
+        "total": "304930"
+      },
+      {
+        "value": "$4",
+        "odds": "100.09",
+        "total": "114294"
+      },
+      {
+        "value": "$2",
+        "odds": "14.29",
+        "total": "800782"
+      },
+      {
+        "value": "$1",
+        "odds": "12",
+        "total": "953429"
+      }
+    ]
+  },
+  "976": {
+    "game_id": "976",
+    "game_name": "100X The Cash",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "100x-the-cash",
+    "guid": "15cc2f95-eb4a-4629-a99e-baebafdfb27a",
+    "product_key": "100x-the-cash",
+    "overall_odds": "3.31",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,540,530",
+        "total": "4"
+      },
+      {
+        "value": "$100,000",
+        "odds": "1,027,020",
+        "total": "6"
+      },
+      {
+        "value": "$10,000",
+        "odds": "205,404",
+        "total": "30"
+      },
+      {
+        "value": "$4,000",
+        "odds": "39,000.76",
+        "total": "158"
+      },
+      {
+        "value": "$1,000",
+        "odds": "23,341.36",
+        "total": "264"
+      },
+      {
+        "value": "$500",
+        "odds": "2,000.69",
+        "total": "3080"
+      },
+      {
+        "value": "$200",
+        "odds": "99.8",
+        "total": "61742"
+      },
+      {
+        "value": "$100",
+        "odds": "23.95",
+        "total": "257297"
+      },
+      {
+        "value": "$50",
+        "odds": "30",
+        "total": "205404"
+      },
+      {
+        "value": "$40",
+        "odds": "29.97",
+        "total": "205583"
+      },
+      {
+        "value": "$30",
+        "odds": "12",
+        "total": "513325"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "616224"
+      }
+    ]
+  },
+  "975": {
+    "game_id": "975",
+    "game_name": "$1,000,000 Money Rush",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "1-million-money-rush",
+    "guid": "c244fd14-c3a8-48f4-a221-51b375588677",
+    "product_key": "1000000-money-rush",
+    "overall_odds": "3.78",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,354,380",
+        "total": "4"
+      },
+      {
+        "value": "$10,000",
+        "odds": "451,460",
+        "total": "12"
+      },
+      {
+        "value": "$5,000",
+        "odds": "225,730",
+        "total": "24"
+      },
+      {
+        "value": "$2,000",
+        "odds": "117,772.17",
+        "total": "46"
+      },
+      {
+        "value": "$500",
+        "odds": "4,961.1",
+        "total": "1092"
+      },
+      {
+        "value": "$250",
+        "odds": "3,003.06",
+        "total": "1804"
+      },
+      {
+        "value": "$100",
+        "odds": "79.92",
+        "total": "67789"
+      },
+      {
+        "value": "$50",
+        "odds": "26.32",
+        "total": "205861"
+      },
+      {
+        "value": "$30",
+        "odds": "74.96",
+        "total": "72276"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "541757"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "541742"
+      }
+    ]
+  },
+  "974": {
+    "game_id": "974",
+    "game_name": "$200,000 Money Rush",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "200000-money-rush",
+    "guid": "5bd51ff7-b089-42d4-a8a2-be00d2abc75d",
+    "product_key": "200000-money-rush",
+    "overall_odds": "4.32",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,219,635",
+        "total": "4"
+      },
+      {
+        "value": "$5,000",
+        "odds": "609,817.5",
+        "total": "8"
+      },
+      {
+        "value": "$2,000",
+        "odds": "203,272.5",
+        "total": "24"
+      },
+      {
+        "value": "$500",
+        "odds": "19,514.16",
+        "total": "250"
+      },
+      {
+        "value": "$200",
+        "odds": "9,895.62",
+        "total": "493"
+      },
+      {
+        "value": "$100",
+        "odds": "601.77",
+        "total": "8107"
+      },
+      {
+        "value": "$50",
+        "odds": "76.4",
+        "total": "63856"
+      },
+      {
+        "value": "$25",
+        "odds": "24.99",
+        "total": "195184"
+      },
+      {
+        "value": "$15",
+        "odds": "60",
+        "total": "81309"
+      },
+      {
+        "value": "$10",
+        "odds": "14.29",
+        "total": "341347"
+      },
+      {
+        "value": "$5",
+        "odds": "11.11",
+        "total": "439177"
+      }
+    ]
+  },
+  "973": {
+    "game_id": "973",
+    "game_name": "Super 7-11-21",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "super-7-11-21",
+    "guid": "31adb062-d07b-4dd6-b9b3-74e5a72314b2",
+    "product_key": "super-7-11-21",
+    "overall_odds": "4.55",
+    "prizes": [
+      {
+        "value": "$20,000",
+        "odds": "1,663,725",
+        "total": "4"
+      },
+      {
+        "value": "$1,000",
+        "odds": "277,287.5",
+        "total": "24"
+      },
+      {
+        "value": "$500",
+        "odds": "79,225",
+        "total": "84"
+      },
+      {
+        "value": "$200",
+        "odds": "29,188.16",
+        "total": "228"
+      },
+      {
+        "value": "$100",
+        "odds": "3,728.24",
+        "total": "1785"
+      },
+      {
+        "value": "$50",
+        "odds": "1,849.1",
+        "total": "3599"
+      },
+      {
+        "value": "$30",
+        "odds": "1,490.79",
+        "total": "4464"
+      },
+      {
+        "value": "$20",
+        "odds": "46.15",
+        "total": "144203"
+      },
+      {
+        "value": "$10",
+        "odds": "37.51",
+        "total": "177423"
+      },
+      {
+        "value": "$5",
+        "odds": "60",
+        "total": "110911"
+      },
+      {
+        "value": "$4",
+        "odds": "15",
+        "total": "443706"
+      },
+      {
+        "value": "$2",
+        "odds": "11.54",
+        "total": "576748"
+      }
+    ]
+  },
+  "972": {
+    "game_id": "972",
+    "game_name": "$8 Million Money Maker",
+    "ticket_price": "$50",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "8-million-money-maker",
+    "guid": "55c36bad-9508-4eef-abd4-2ec7f0b45591",
+    "product_key": "8-million-money-maker",
+    "overall_odds": "4.14",
+    "prizes": [
+      {
+        "value": "$8,000,000",
+        "odds": "3,042,264",
+        "total": "5"
+      },
+      {
+        "value": "$100,000",
+        "odds": "1,521,132",
+        "total": "10"
+      },
+      {
+        "value": "$25,000",
+        "odds": "380,283",
+        "total": "40"
+      },
+      {
+        "value": "$10,000",
+        "odds": "121,690.56",
+        "total": "125"
+      },
+      {
+        "value": "$5,000",
+        "odds": "58,730.97",
+        "total": "259"
+      },
+      {
+        "value": "$2,000",
+        "odds": "23,330.25",
+        "total": "652"
+      },
+      {
+        "value": "$500",
+        "odds": "99.96",
+        "total": "152169"
+      },
+      {
+        "value": "$400",
+        "odds": "153.82",
+        "total": "98889"
+      },
+      {
+        "value": "$250",
+        "odds": "40",
+        "total": "380307"
+      },
+      {
+        "value": "$200",
+        "odds": "24",
+        "total": "633731"
+      },
+      {
+        "value": "$100",
+        "odds": "6.32",
+        "total": "2408533"
+      }
+    ]
+  },
+  "971": {
+    "game_id": "971",
+    "game_name": "Diamond 10X",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "diamond-10x",
+    "guid": "670dbd3c-5280-45b8-ac61-3586821d5d31",
+    "product_key": "diamond-10x",
+    "overall_odds": "4.23",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,666,395",
+        "total": "4"
+      },
+      {
+        "value": "$10,000",
+        "odds": "666,558",
+        "total": "10"
+      },
+      {
+        "value": "$1,000",
+        "odds": "105,802.86",
+        "total": "63"
+      },
+      {
+        "value": "$500",
+        "odds": "15,080.5",
+        "total": "442"
+      },
+      {
+        "value": "$200",
+        "odds": "5,999.62",
+        "total": "1111"
+      },
+      {
+        "value": "$100",
+        "odds": "479.75",
+        "total": "13894"
+      },
+      {
+        "value": "$50",
+        "odds": "70.4",
+        "total": "94678"
+      },
+      {
+        "value": "$25",
+        "odds": "30",
+        "total": "222186"
+      },
+      {
+        "value": "$15",
+        "odds": "75.01",
+        "total": "88857"
+      },
+      {
+        "value": "$10",
+        "odds": "12",
+        "total": "555485"
+      },
+      {
+        "value": "$5",
+        "odds": "11.11",
+        "total": "599871"
+      }
+    ]
+  },
+  "959": {
+    "game_id": "959",
+    "game_name": "LOTERIA\u00ae",
+    "ticket_price": "$3",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "loteria",
+    "guid": "92acc434-4cbd-4ea4-a9a2-4d7175bb7337",
+    "product_key": "loteria",
+    "overall_odds": "3.99",
+    "prizes": [
+      {
+        "value": "$75,000",
+        "odds": "1,159,112.5",
+        "total": "8"
+      },
+      {
+        "value": "$10,000",
+        "odds": "463,645",
+        "total": "20"
+      },
+      {
+        "value": "$1,000",
+        "odds": "117,378.48",
+        "total": "79"
+      },
+      {
+        "value": "$500",
+        "odds": "58,320.13",
+        "total": "159"
+      },
+      {
+        "value": "$150",
+        "odds": "11,888.33",
+        "total": "780"
+      },
+      {
+        "value": "$100",
+        "odds": "1,002.37",
+        "total": "9251"
+      },
+      {
+        "value": "$70",
+        "odds": "1,320.17",
+        "total": "7024"
+      },
+      {
+        "value": "$50",
+        "odds": "1,007.49",
+        "total": "9204"
+      },
+      {
+        "value": "$30",
+        "odds": "500.08",
+        "total": "18543"
+      },
+      {
+        "value": "$20",
+        "odds": "71.43",
+        "total": "129814"
+      },
+      {
+        "value": "$15",
+        "odds": "83.35",
+        "total": "111254"
+      },
+      {
+        "value": "$10",
+        "odds": "25",
+        "total": "370975"
+      },
+      {
+        "value": "$8",
+        "odds": "100.06",
+        "total": "92676"
+      },
+      {
+        "value": "$5",
+        "odds": "12.5",
+        "total": "742010"
+      },
+      {
+        "value": "$3",
+        "odds": "11.11",
+        "total": "834385"
+      }
+    ]
+  },
+  "952": {
+    "game_id": "952",
+    "game_name": "Millionaire Bucks",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "millionaire-bucks",
+    "guid": "360154a9-cef0-4ccd-88d3-3851917ae225",
+    "product_key": "millionaire-bucks",
+    "overall_odds": "3.04",
+    "prizes": [
+      {
+        "value": "$5,000,000",
+        "odds": "2,779,425",
+        "total": "4"
+      },
+      {
+        "value": "$100,000",
+        "odds": "1,111,770",
+        "total": "10"
+      },
+      {
+        "value": "$20,000",
+        "odds": "555,885",
+        "total": "20"
+      },
+      {
+        "value": "$5,000",
+        "odds": "277,942.5",
+        "total": "40"
+      },
+      {
+        "value": "$2,000",
+        "odds": "26,919.37",
+        "total": "413"
+      },
+      {
+        "value": "$500",
+        "odds": "240.13",
+        "total": "46298"
+      },
+      {
+        "value": "$200",
+        "odds": "32.33",
+        "total": "343898"
+      },
+      {
+        "value": "$100",
+        "odds": "29.97",
+        "total": "370906"
+      },
+      {
+        "value": "$60",
+        "odds": "75.05",
+        "total": "148142"
+      },
+      {
+        "value": "$50",
+        "odds": "12.49",
+        "total": "889838"
+      },
+      {
+        "value": "$40",
+        "odds": "15.01",
+        "total": "740891"
+      },
+      {
+        "value": "$30",
+        "odds": "10",
+        "total": "1111635"
+      }
+    ]
+  },
+  "951": {
+    "game_id": "951",
+    "game_name": "Win Big",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "win-big",
+    "guid": "17f8fa64-45e4-476b-93ad-8fe7dbe72180",
+    "product_key": "win-big",
+    "overall_odds": "3.56",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,729,260",
+        "total": "3"
+      },
+      {
+        "value": "$100,000",
+        "odds": "864,630",
+        "total": "6"
+      },
+      {
+        "value": "$20,000",
+        "odds": "432,315",
+        "total": "12"
+      },
+      {
+        "value": "$5,000",
+        "odds": "117,904.09",
+        "total": "44"
+      },
+      {
+        "value": "$1,000",
+        "odds": "41,172.86",
+        "total": "126"
+      },
+      {
+        "value": "$500",
+        "odds": "6,067.58",
+        "total": "855"
+      },
+      {
+        "value": "$200",
+        "odds": "60.08",
+        "total": "86347"
+      },
+      {
+        "value": "$100",
+        "odds": "32.73",
+        "total": "158498"
+      },
+      {
+        "value": "$50",
+        "odds": "24",
+        "total": "216190"
+      },
+      {
+        "value": "$40",
+        "odds": "12",
+        "total": "432286"
+      },
+      {
+        "value": "$20",
+        "odds": "9.23",
+        "total": "562006"
+      }
+    ]
+  },
+  "950": {
+    "game_id": "950",
+    "game_name": "Ca$h Plu$",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "cash-plus",
+    "guid": "ece73203-48ce-44d7-a6dd-2ea48dac3d7c",
+    "product_key": "cah-plu",
+    "overall_odds": "4.31",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,663,515",
+        "total": "4"
+      },
+      {
+        "value": "$5,000",
+        "odds": "554,505",
+        "total": "12"
+      },
+      {
+        "value": "$1,000",
+        "odds": "61,046.42",
+        "total": "109"
+      },
+      {
+        "value": "$500",
+        "odds": "23,347.58",
+        "total": "285"
+      },
+      {
+        "value": "$200",
+        "odds": "5,989.25",
+        "total": "1111"
+      },
+      {
+        "value": "$100",
+        "odds": "586.62",
+        "total": "11343"
+      },
+      {
+        "value": "$50",
+        "odds": "95.24",
+        "total": "69867"
+      },
+      {
+        "value": "$40",
+        "odds": "77.5",
+        "total": "85855"
+      },
+      {
+        "value": "$20",
+        "odds": "29.99",
+        "total": "221839"
+      },
+      {
+        "value": "$15",
+        "odds": "75.01",
+        "total": "88711"
+      },
+      {
+        "value": "$10",
+        "odds": "13.64",
+        "total": "487967"
+      },
+      {
+        "value": "$5",
+        "odds": "11.54",
+        "total": "576611"
+      }
+    ]
+  },
+  "949": {
+    "game_id": "949",
+    "game_name": "Xtreme Cashword",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "xtreme-cashword",
+    "guid": "f5afb21f-b217-4814-8e16-870a168b5d7a",
+    "product_key": "xtreme-cashword",
+    "overall_odds": "3.92",
+    "prizes": [
+      {
+        "value": "$150,000",
+        "odds": "1,151,290",
+        "total": "9"
+      },
+      {
+        "value": "$5,000",
+        "odds": "575,645",
+        "total": "18"
+      },
+      {
+        "value": "$1,000",
+        "odds": "58,540.17",
+        "total": "176"
+      },
+      {
+        "value": "$500",
+        "odds": "23,336.96",
+        "total": "441"
+      },
+      {
+        "value": "$300",
+        "odds": "19,458.42",
+        "total": "528"
+      },
+      {
+        "value": "$200",
+        "odds": "11,668.48",
+        "total": "870"
+      },
+      {
+        "value": "$100",
+        "odds": "1,209.13",
+        "total": "8562"
+      },
+      {
+        "value": "$50",
+        "odds": "120.03",
+        "total": "85971"
+      },
+      {
+        "value": "$40",
+        "odds": "400.26",
+        "total": "25773"
+      },
+      {
+        "value": "$30",
+        "odds": "98.27",
+        "total": "104863"
+      },
+      {
+        "value": "$20",
+        "odds": "20",
+        "total": "515333"
+      },
+      {
+        "value": "$10",
+        "odds": "12",
+        "total": "858235"
+      },
+      {
+        "value": "$5",
+        "odds": "10",
+        "total": "1030666"
+      }
+    ]
+  },
+  "948": {
+    "game_id": "948",
+    "game_name": "JUMBO BUCKS",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "jumbo-bucks",
+    "guid": "672da41f-b543-4149-bf68-2c421e73bdbe",
+    "product_key": "jumbo-bucks",
+    "overall_odds": "3.81",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,398,273.75",
+        "total": "8"
+      },
+      {
+        "value": "$50,000",
+        "odds": "1,398,273.75",
+        "total": "8"
+      },
+      {
+        "value": "$10,000",
+        "odds": "699,136.88",
+        "total": "16"
+      },
+      {
+        "value": "$5,000",
+        "odds": "349,568.44",
+        "total": "32"
+      },
+      {
+        "value": "$2,000",
+        "odds": "89,489.52",
+        "total": "125"
+      },
+      {
+        "value": "$500",
+        "odds": "3,166.2",
+        "total": "3533"
+      },
+      {
+        "value": "$200",
+        "odds": "1,505.34",
+        "total": "7431"
+      },
+      {
+        "value": "$100",
+        "odds": "59.91",
+        "total": "186719"
+      },
+      {
+        "value": "$50",
+        "odds": "40.03",
+        "total": "279438"
+      },
+      {
+        "value": "$30",
+        "odds": "77.19",
+        "total": "144914"
+      },
+      {
+        "value": "$20",
+        "odds": "9.37",
+        "total": "1193486"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "1118271"
+      }
+    ]
+  },
+  "947": {
+    "game_id": "947",
+    "game_name": "MEGA BUCKS",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "mega-bucks",
+    "guid": "a2a8fa05-3a5c-4980-b29a-c36a1ba41c51",
+    "product_key": "mega-bucks",
+    "overall_odds": "4.35",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,234,580",
+        "total": "9"
+      },
+      {
+        "value": "$10,000",
+        "odds": "617,290",
+        "total": "18"
+      },
+      {
+        "value": "$1,000",
+        "odds": "154,322.5",
+        "total": "72"
+      },
+      {
+        "value": "$500",
+        "odds": "23,392.04",
+        "total": "475"
+      },
+      {
+        "value": "$100",
+        "odds": "804.11",
+        "total": "13818"
+      },
+      {
+        "value": "$50",
+        "odds": "66.68",
+        "total": "166625"
+      },
+      {
+        "value": "$25",
+        "odds": "30.01",
+        "total": "370211"
+      },
+      {
+        "value": "$15",
+        "odds": "33.3",
+        "total": "333660"
+      },
+      {
+        "value": "$10",
+        "odds": "15",
+        "total": "740624"
+      },
+      {
+        "value": "$5",
+        "odds": "12",
+        "total": "925859"
+      }
+    ]
+  },
+  "946": {
+    "game_id": "946",
+    "game_name": "Junior BIG OL' BUCKS\u00ae",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "junior-big-ol-bucks",
+    "guid": "c5a59c36-e39c-4661-abba-a16ef7580a69",
+    "product_key": "junior-big-ol-bucks",
+    "overall_odds": "4.75",
+    "prizes": [
+      {
+        "value": "$50,000",
+        "odds": "1,481,816.67",
+        "total": "9"
+      },
+      {
+        "value": "$500",
+        "odds": "47,460.32",
+        "total": "281"
+      },
+      {
+        "value": "$100",
+        "odds": "3,063.01",
+        "total": "4354"
+      },
+      {
+        "value": "$50",
+        "odds": "1,193.94",
+        "total": "11170"
+      },
+      {
+        "value": "$20",
+        "odds": "39.47",
+        "total": "337885"
+      },
+      {
+        "value": "$10",
+        "odds": "41.67",
+        "total": "320025"
+      },
+      {
+        "value": "$5",
+        "odds": "30.01",
+        "total": "444469"
+      },
+      {
+        "value": "$3",
+        "odds": "25",
+        "total": "533506"
+      },
+      {
+        "value": "$2",
+        "odds": "11.54",
+        "total": "1155858"
+      }
+    ]
+  },
+  "944": {
+    "game_id": "944",
+    "game_name": "$50,000 Payout",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "50000-payout",
+    "guid": "561327f0-f7ee-46ed-91b2-55847e016850",
+    "product_key": "50000-payout",
+    "overall_odds": "3.54",
+    "prizes": [
+      {
+        "value": "$50,000",
+        "odds": "55,601.1",
+        "total": "100"
+      },
+      {
+        "value": "$1,000",
+        "odds": "123,558",
+        "total": "45"
+      },
+      {
+        "value": "$500",
+        "odds": "1,868.94",
+        "total": "2975"
+      },
+      {
+        "value": "$200",
+        "odds": "119.95",
+        "total": "46354"
+      },
+      {
+        "value": "$100",
+        "odds": "20",
+        "total": "277950"
+      },
+      {
+        "value": "$50",
+        "odds": "30",
+        "total": "185337"
+      },
+      {
+        "value": "$40",
+        "odds": "12",
+        "total": "463226"
+      },
+      {
+        "value": "$20",
+        "odds": "9.37",
+        "total": "593360"
+      }
+    ]
+  },
+  "943": {
+    "game_id": "943",
+    "game_name": "$1,000,000 Cashword",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "1000000-cashword",
+    "guid": "7335970c-4591-4446-965a-9062a23d6cb9",
+    "product_key": "1000000-cashword",
+    "overall_odds": "3.58",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,210,185",
+        "total": "4"
+      },
+      {
+        "value": "$10,000",
+        "odds": "605,092.5",
+        "total": "8"
+      },
+      {
+        "value": "$5,000",
+        "odds": "403,395",
+        "total": "12"
+      },
+      {
+        "value": "$2,000",
+        "odds": "403,395",
+        "total": "12"
+      },
+      {
+        "value": "$1,000",
+        "odds": "151,273.13",
+        "total": "32"
+      },
+      {
+        "value": "$500",
+        "odds": "3,016.04",
+        "total": "1605"
+      },
+      {
+        "value": "$200",
+        "odds": "2,960.7",
+        "total": "1635"
+      },
+      {
+        "value": "$100",
+        "odds": "114.03",
+        "total": "42450"
+      },
+      {
+        "value": "$50",
+        "odds": "49.94",
+        "total": "96932"
+      },
+      {
+        "value": "$40",
+        "odds": "100.25",
+        "total": "48285"
+      },
+      {
+        "value": "$30",
+        "odds": "25",
+        "total": "193635"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "484074"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "484074"
+      }
+    ]
+  },
+  "940": {
+    "game_id": "940",
+    "game_name": "Supreme 7s",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "supreme-7s",
+    "guid": "53b8e0af-024b-4766-9c59-fe5b8f37010d",
+    "product_key": "supreme-7s",
+    "overall_odds": "4.18",
+    "prizes": [
+      {
+        "value": "$4,000,000",
+        "odds": "2,262,495",
+        "total": "4"
+      },
+      {
+        "value": "$100,000",
+        "odds": "904,998",
+        "total": "10"
+      },
+      {
+        "value": "$40,000",
+        "odds": "754,165",
+        "total": "12"
+      },
+      {
+        "value": "$10,000",
+        "odds": "120,666.4",
+        "total": "75"
+      },
+      {
+        "value": "$4,000",
+        "odds": "40,044.16",
+        "total": "226"
+      },
+      {
+        "value": "$1,000",
+        "odds": "19,588.7",
+        "total": "462"
+      },
+      {
+        "value": "$500",
+        "odds": "1,004.88",
+        "total": "9006"
+      },
+      {
+        "value": "$400",
+        "odds": "95.82",
+        "total": "94446"
+      },
+      {
+        "value": "$150",
+        "odds": "51.06",
+        "total": "177250"
+      },
+      {
+        "value": "$100",
+        "odds": "15",
+        "total": "603160"
+      },
+      {
+        "value": "$60",
+        "odds": "17.14",
+        "total": "527904"
+      },
+      {
+        "value": "$50",
+        "odds": "12",
+        "total": "754188"
+      }
+    ]
+  },
+  "939": {
+    "game_id": "939",
+    "game_name": "$80 Million Cash Blowout",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "80-million-cash-blowout",
+    "guid": "833b1b9c-9c68-4e3d-913e-61625836008d",
+    "product_key": "80-million-cash-blowout",
+    "overall_odds": "9.95",
+    "prizes": [
+      {
+        "value": "$500",
+        "odds": "749.82",
+        "total": "15330"
+      },
+      {
+        "value": "$100",
+        "odds": "30.76",
+        "total": "373712"
+      },
+      {
+        "value": "$50",
+        "odds": "15",
+        "total": "766318"
+      }
+    ]
+  },
+  "935": {
+    "game_id": "935",
+    "game_name": "$500 Loaded",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "500-loaded",
+    "guid": "07e18b5f-b8e4-48d7-a922-b63ff46d8856",
+    "product_key": "500-loaded",
+    "overall_odds": "4.37",
+    "prizes": [
+      {
+        "value": "$500",
+        "odds": "601.38",
+        "total": "20313"
+      },
+      {
+        "value": "$100",
+        "odds": "2,992.62",
+        "total": "4082"
+      },
+      {
+        "value": "$50",
+        "odds": "99.93",
+        "total": "122242"
+      },
+      {
+        "value": "$20",
+        "odds": "30",
+        "total": "407145"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "1221741"
+      },
+      {
+        "value": "$5",
+        "odds": "12",
+        "total": "1017888"
+      }
+    ]
+  },
+  "932": {
+    "game_id": "932",
+    "game_name": "Instant Millions",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "instant-millions",
+    "guid": "eda91a65-1409-4756-a506-acfb9023b1c9",
+    "product_key": "instant-millions",
+    "overall_odds": "3.41",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,729,605",
+        "total": "4"
+      },
+      {
+        "value": "$100,000",
+        "odds": "864,802.5",
+        "total": "8"
+      },
+      {
+        "value": "$10,000",
+        "odds": "576,535",
+        "total": "12"
+      },
+      {
+        "value": "$5,000",
+        "odds": "117,261.36",
+        "total": "59"
+      },
+      {
+        "value": "$1,000",
+        "odds": "39,087.12",
+        "total": "177"
+      },
+      {
+        "value": "$500",
+        "odds": "6,021.25",
+        "total": "1149"
+      },
+      {
+        "value": "$200",
+        "odds": "99.87",
+        "total": "69271"
+      },
+      {
+        "value": "$100",
+        "odds": "23.99",
+        "total": "288348"
+      },
+      {
+        "value": "$50",
+        "odds": "12",
+        "total": "576562"
+      },
+      {
+        "value": "$30",
+        "odds": "20",
+        "total": "345850"
+      },
+      {
+        "value": "$20",
+        "odds": "9.23",
+        "total": "749537"
+      }
+    ]
+  },
+  "929": {
+    "game_id": "929",
+    "game_name": "Ultimate Dash",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "ultimate-dash",
+    "guid": "b80707d0-5774-47d9-a1d8-0730a58a5983",
+    "product_key": "ultimate-dash",
+    "overall_odds": "3.78",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,343,875",
+        "total": "6"
+      },
+      {
+        "value": "$50,000",
+        "odds": "1,343,875",
+        "total": "6"
+      },
+      {
+        "value": "$5,000",
+        "odds": "223,979.17",
+        "total": "36"
+      },
+      {
+        "value": "$1,000",
+        "odds": "39,525.74",
+        "total": "204"
+      },
+      {
+        "value": "$500",
+        "odds": "4,005.59",
+        "total": "2013"
+      },
+      {
+        "value": "$200",
+        "odds": "2,339.89",
+        "total": "3446"
+      },
+      {
+        "value": "$100",
+        "odds": "60.06",
+        "total": "134243"
+      },
+      {
+        "value": "$50",
+        "odds": "49.97",
+        "total": "161359"
+      },
+      {
+        "value": "$40",
+        "odds": "70.64",
+        "total": "114139"
+      },
+      {
+        "value": "$20",
+        "odds": "8.82",
+        "total": "913868"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "806338"
+      }
+    ]
+  },
+  "928": {
+    "game_id": "928",
+    "game_name": "$400,000 Jackpot",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "400000-jackpot",
+    "guid": "13d09dc0-6065-4deb-9e2a-1b67cb115dc0",
+    "product_key": "400000-jackpot",
+    "overall_odds": "4.40",
+    "prizes": [
+      {
+        "value": "$400,000",
+        "odds": "2,058,816",
+        "total": "5"
+      },
+      {
+        "value": "$10,000",
+        "odds": "1,029,408",
+        "total": "10"
+      },
+      {
+        "value": "$2,000",
+        "odds": "128,676",
+        "total": "80"
+      },
+      {
+        "value": "$500",
+        "odds": "11,805.14",
+        "total": "872"
+      },
+      {
+        "value": "$200",
+        "odds": "6,019.93",
+        "total": "1710"
+      },
+      {
+        "value": "$100",
+        "odds": "199.77",
+        "total": "51530"
+      },
+      {
+        "value": "$50",
+        "odds": "80",
+        "total": "128676"
+      },
+      {
+        "value": "$30",
+        "odds": "195.26",
+        "total": "52720"
+      },
+      {
+        "value": "$20",
+        "odds": "48.01",
+        "total": "214413"
+      },
+      {
+        "value": "$15",
+        "odds": "60",
+        "total": "171568"
+      },
+      {
+        "value": "$10",
+        "odds": "13.33",
+        "total": "772150"
+      },
+      {
+        "value": "$5",
+        "odds": "10.91",
+        "total": "943593"
+      }
+    ]
+  },
+  "925": {
+    "game_id": "925",
+    "game_name": "200X The Cash",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "200x-the-cash",
+    "guid": "16148013-24c1-453a-9340-a773a8918ace",
+    "product_key": "200x-the-cash",
+    "overall_odds": "2.93",
+    "prizes": [
+      {
+        "value": "$5,000,000",
+        "odds": "2,963,646",
+        "total": "5"
+      },
+      {
+        "value": "$100,000",
+        "odds": "1,481,823",
+        "total": "10"
+      },
+      {
+        "value": "$50,000",
+        "odds": "740,911.5",
+        "total": "20"
+      },
+      {
+        "value": "$10,000",
+        "odds": "592,729.2",
+        "total": "25"
+      },
+      {
+        "value": "$5,000",
+        "odds": "112,259.32",
+        "total": "132"
+      },
+      {
+        "value": "$1,000",
+        "odds": "7,975.37",
+        "total": "1858"
+      },
+      {
+        "value": "$500",
+        "odds": "479.03",
+        "total": "30934"
+      },
+      {
+        "value": "$400",
+        "odds": "300.22",
+        "total": "49358"
+      },
+      {
+        "value": "$200",
+        "odds": "44.23",
+        "total": "335035"
+      },
+      {
+        "value": "$100",
+        "odds": "25.01",
+        "total": "592591"
+      },
+      {
+        "value": "$60",
+        "odds": "74.92",
+        "total": "197782"
+      },
+      {
+        "value": "$50",
+        "odds": "10.72",
+        "total": "1382793"
+      },
+      {
+        "value": "$40",
+        "odds": "14.99",
+        "total": "988272"
+      },
+      {
+        "value": "$30",
+        "odds": "10",
+        "total": "1481259"
+      }
+    ]
+  },
+  "917": {
+    "game_id": "917",
+    "game_name": "$2,000,000 Diamond Deluxe",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "2000000-diamond-deluxe",
+    "guid": "57d2b2e8-4622-4359-8fcd-222e4295a875",
+    "product_key": "2000000-diamond-deluxe",
+    "overall_odds": "3.22",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,535,557.5",
+        "total": "4"
+      },
+      {
+        "value": "$100,000",
+        "odds": "767,778.75",
+        "total": "8"
+      },
+      {
+        "value": "$10,000",
+        "odds": "204,741",
+        "total": "30"
+      },
+      {
+        "value": "$5,000",
+        "odds": "58,497.43",
+        "total": "105"
+      },
+      {
+        "value": "$2,000",
+        "odds": "39,122.48",
+        "total": "157"
+      },
+      {
+        "value": "$500",
+        "odds": "1,993.58",
+        "total": "3081"
+      },
+      {
+        "value": "$200",
+        "odds": "200.35",
+        "total": "30658"
+      },
+      {
+        "value": "$100",
+        "odds": "21.58",
+        "total": "284589"
+      },
+      {
+        "value": "$50",
+        "odds": "20.01",
+        "total": "307021"
+      },
+      {
+        "value": "$40",
+        "odds": "29.99",
+        "total": "204812"
+      },
+      {
+        "value": "$30",
+        "odds": "14.99",
+        "total": "409755"
+      },
+      {
+        "value": "$20",
+        "odds": "9.24",
+        "total": "665083"
+      }
+    ]
+  },
+  "913": {
+    "game_id": "913",
+    "game_name": "$10 Million Spectacular",
+    "ticket_price": "$50",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "10-million-spectacular",
+    "guid": "81d59bf9-883d-4798-a54e-cebf297dfb97",
+    "product_key": "10-million-spectacular",
+    "overall_odds": "3.11",
+    "prizes": [
+      {
+        "value": "$10,000,000",
+        "odds": "3,255,582",
+        "total": "5"
+      },
+      {
+        "value": "$1,000,000",
+        "odds": "813,895.5",
+        "total": "20"
+      },
+      {
+        "value": "$100,000",
+        "odds": "813,895.5",
+        "total": "20"
+      },
+      {
+        "value": "$50,000",
+        "odds": "325,558.2",
+        "total": "50"
+      },
+      {
+        "value": "$5,000",
+        "odds": "117,107.27",
+        "total": "139"
+      },
+      {
+        "value": "$2,000",
+        "odds": "58,343.76",
+        "total": "279"
+      },
+      {
+        "value": "$500",
+        "odds": "88.19",
+        "total": "184568"
+      },
+      {
+        "value": "$200",
+        "odds": "42.39",
+        "total": "384015"
+      },
+      {
+        "value": "$150",
+        "odds": "15",
+        "total": "1085194"
+      },
+      {
+        "value": "$100",
+        "odds": "8.82",
+        "total": "1844758"
+      },
+      {
+        "value": "$50",
+        "odds": "9.37",
+        "total": "1736454"
+      }
+    ]
+  },
+  "904": {
+    "game_id": "904",
+    "game_name": "Power 20s",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "power-20s",
+    "guid": "7924fc62-b8c7-4dff-bece-5d0334d91c7c",
+    "product_key": "power-20s",
+    "overall_odds": "3.23",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,852,897.5",
+        "total": "4"
+      },
+      {
+        "value": "$100,000",
+        "odds": "926,448.75",
+        "total": "8"
+      },
+      {
+        "value": "$20,000",
+        "odds": "463,224.38",
+        "total": "16"
+      },
+      {
+        "value": "$5,000",
+        "odds": "58,358.98",
+        "total": "127"
+      },
+      {
+        "value": "$2,000",
+        "odds": "39,008.37",
+        "total": "190"
+      },
+      {
+        "value": "$500",
+        "odds": "2,004.22",
+        "total": "3698"
+      },
+      {
+        "value": "$200",
+        "odds": "90.49",
+        "total": "81904"
+      },
+      {
+        "value": "$100",
+        "odds": "25.01",
+        "total": "296385"
+      },
+      {
+        "value": "$50",
+        "odds": "30",
+        "total": "247050"
+      },
+      {
+        "value": "$40",
+        "odds": "30",
+        "total": "247053"
+      },
+      {
+        "value": "$30",
+        "odds": "13.33",
+        "total": "555889"
+      },
+      {
+        "value": "$20",
+        "odds": "8.57",
+        "total": "864669"
+      }
+    ]
+  },
+  "892": {
+    "game_id": "892",
+    "game_name": "Black Titanium",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "black-titanium",
+    "guid": "885341bd-bc18-4f5f-af6a-f4c20fb6a8a2",
+    "product_key": "black-titanium",
+    "overall_odds": "4.14",
+    "prizes": [
+      {
+        "value": "$4,000,000",
+        "odds": "1,985,155",
+        "total": "6"
+      },
+      {
+        "value": "$100,000",
+        "odds": "744,433.13",
+        "total": "16"
+      },
+      {
+        "value": "$30,000",
+        "odds": "372,216.56",
+        "total": "32"
+      },
+      {
+        "value": "$10,000",
+        "odds": "119,109.3",
+        "total": "100"
+      },
+      {
+        "value": "$3,000",
+        "odds": "39,571.2",
+        "total": "301"
+      },
+      {
+        "value": "$1,000",
+        "odds": "19,851.55",
+        "total": "600"
+      },
+      {
+        "value": "$500",
+        "odds": "632.45",
+        "total": "18833"
+      },
+      {
+        "value": "$300",
+        "odds": "76.81",
+        "total": "155079"
+      },
+      {
+        "value": "$150",
+        "odds": "54.56",
+        "total": "218310"
+      },
+      {
+        "value": "$100",
+        "odds": "15.01",
+        "total": "793752"
+      },
+      {
+        "value": "$60",
+        "odds": "17.14",
+        "total": "694882"
+      },
+      {
+        "value": "$50",
+        "odds": "12",
+        "total": "992422"
+      }
+    ]
+  },
+  "884": {
+    "game_id": "884",
+    "game_name": "$2,000,000 Riches",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "2000000-riches",
+    "guid": "50be956d-bef2-426d-ac5d-fbc590ac3c15",
+    "product_key": "2000000-riches",
+    "overall_odds": "3.20",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,794,465",
+        "total": "4"
+      },
+      {
+        "value": "$100,000",
+        "odds": "897,232.5",
+        "total": "8"
+      },
+      {
+        "value": "$10,000",
+        "odds": "299,077.5",
+        "total": "24"
+      },
+      {
+        "value": "$5,000",
+        "odds": "58,356.59",
+        "total": "123"
+      },
+      {
+        "value": "$1,000",
+        "odds": "19,883.27",
+        "total": "361"
+      },
+      {
+        "value": "$500",
+        "odds": "801.37",
+        "total": "8957"
+      },
+      {
+        "value": "$200",
+        "odds": "120.04",
+        "total": "59797"
+      },
+      {
+        "value": "$100",
+        "odds": "27.78",
+        "total": "258410"
+      },
+      {
+        "value": "$50",
+        "odds": "20",
+        "total": "358843"
+      },
+      {
+        "value": "$40",
+        "odds": "30",
+        "total": "239290"
+      },
+      {
+        "value": "$30",
+        "odds": "15",
+        "total": "478673"
+      },
+      {
+        "value": "$20",
+        "odds": "8.57",
+        "total": "837290"
+      }
+    ]
+  },
+  "876": {
+    "game_id": "876",
+    "game_name": "$5,000,000 Ultimate",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "5000000-ultimate",
+    "guid": "ee2f699e-ec4f-49f4-ab88-cee0e54a017c",
+    "product_key": "5000000-ultimate",
+    "overall_odds": "3.01",
+    "prizes": [
+      {
+        "value": "$5,000,000",
+        "odds": "3,334,878",
+        "total": "5"
+      },
+      {
+        "value": "$100,000",
+        "odds": "1,111,626",
+        "total": "15"
+      },
+      {
+        "value": "$50,000",
+        "odds": "666,975.6",
+        "total": "25"
+      },
+      {
+        "value": "$20,000",
+        "odds": "555,813",
+        "total": "30"
+      },
+      {
+        "value": "$5,000",
+        "odds": "277,906.5",
+        "total": "60"
+      },
+      {
+        "value": "$1,000",
+        "odds": "6,019.64",
+        "total": "2770"
+      },
+      {
+        "value": "$500",
+        "odds": "199.93",
+        "total": "83401"
+      },
+      {
+        "value": "$200",
+        "odds": "42.42",
+        "total": "393108"
+      },
+      {
+        "value": "$100",
+        "odds": "20",
+        "total": "833677"
+      },
+      {
+        "value": "$50",
+        "odds": "13.64",
+        "total": "1222412"
+      },
+      {
+        "value": "$40",
+        "odds": "12.5",
+        "total": "1334288"
+      },
+      {
+        "value": "$30",
+        "odds": "10",
+        "total": "1667619"
+      }
+    ]
+  },
+  "868": {
+    "game_id": "868",
+    "game_name": "100X The Cash",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "100x-the-cash",
+    "guid": "8baaf0f9-7fb9-49fe-9fda-d92962c4e1ee",
+    "product_key": "100x-the-cash",
+    "overall_odds": "3.24",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,853,616",
+        "total": "8"
+      },
+      {
+        "value": "$100,000",
+        "odds": "926,808",
+        "total": "16"
+      },
+      {
+        "value": "$10,000",
+        "odds": "115,851",
+        "total": "128"
+      },
+      {
+        "value": "$4,000",
+        "odds": "58,658.73",
+        "total": "253"
+      },
+      {
+        "value": "$2,000",
+        "odds": "6,069.47",
+        "total": "2460"
+      },
+      {
+        "value": "$500",
+        "odds": "2,135.01",
+        "total": "6908"
+      },
+      {
+        "value": "$200",
+        "odds": "120",
+        "total": "123616"
+      },
+      {
+        "value": "$100",
+        "odds": "24.02",
+        "total": "617594"
+      },
+      {
+        "value": "$50",
+        "odds": "30",
+        "total": "494238"
+      },
+      {
+        "value": "$40",
+        "odds": "29.99",
+        "total": "494397"
+      },
+      {
+        "value": "$30",
+        "odds": "12",
+        "total": "1235184"
+      },
+      {
+        "value": "$20",
+        "odds": "9.23",
+        "total": "1606572"
+      }
+    ]
+  },
+  "24": {
+    "game_id": "24",
+    "game_name": "200X The Cash",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "200x-the-cash",
+    "guid": "c088e8ea-b996-474b-be7f-0e5ffad19855",
+    "product_key": "200x-the-cash",
+    "overall_odds": "3.01",
+    "prizes": [
+      {
+        "value": "$5,000,000",
+        "odds": "2,592,260",
+        "total": "3"
+      },
+      {
+        "value": "$100,000",
+        "odds": "1,296,130",
+        "total": "6"
+      },
+      {
+        "value": "$50,000",
+        "odds": "518,452",
+        "total": "15"
+      },
+      {
+        "value": "$10,000",
+        "odds": "324,032.5",
+        "total": "24"
+      },
+      {
+        "value": "$5,000",
+        "odds": "162,016.25",
+        "total": "48"
+      },
+      {
+        "value": "$1,000",
+        "odds": "16,979.87",
+        "total": "458"
+      },
+      {
+        "value": "$500",
+        "odds": "533.42",
+        "total": "14579"
+      },
+      {
+        "value": "$400",
+        "odds": "332.68",
+        "total": "23376"
+      },
+      {
+        "value": "$200",
+        "odds": "37.51",
+        "total": "207299"
+      },
+      {
+        "value": "$100",
+        "odds": "24.74",
+        "total": "314365"
+      },
+      {
+        "value": "$60",
+        "odds": "149.89",
+        "total": "51883"
+      },
+      {
+        "value": "$50",
+        "odds": "11.54",
+        "total": "673971"
+      },
+      {
+        "value": "$40",
+        "odds": "15.01",
+        "total": "518247"
+      },
+      {
+        "value": "$30",
+        "odds": "10",
+        "total": "777874"
+      }
+    ]
+  },
+  "23": {
+    "game_id": "23",
+    "game_name": "$10 MONOPOLY\u00ae",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "10-monopoly",
+    "guid": "b852acdc-62bc-4dda-8075-d1204ef9799a",
+    "product_key": "10-monopoly",
+    "overall_odds": "3.81",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,357,665",
+        "total": "4"
+      },
+      {
+        "value": "$50,000",
+        "odds": "1,357,665",
+        "total": "4"
+      },
+      {
+        "value": "$5,000",
+        "odds": "271,533",
+        "total": "20"
+      },
+      {
+        "value": "$2,000",
+        "odds": "135,766.5",
+        "total": "40"
+      },
+      {
+        "value": "$500",
+        "odds": "3,753.05",
+        "total": "1447"
+      },
+      {
+        "value": "$200",
+        "odds": "4,973.13",
+        "total": "1092"
+      },
+      {
+        "value": "$100",
+        "odds": "60",
+        "total": "90511"
+      },
+      {
+        "value": "$50",
+        "odds": "40.03",
+        "total": "135681"
+      },
+      {
+        "value": "$40",
+        "odds": "80.05",
+        "total": "67841"
+      },
+      {
+        "value": "$20",
+        "odds": "9.37",
+        "total": "579339"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "542982"
+      }
+    ]
+  },
+  "22": {
+    "game_id": "22",
+    "game_name": "$5 MONOPOLY\u00ae",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "5-monopoly",
+    "guid": "9492b930-ed99-4293-876c-89a0609b8b4c",
+    "product_key": "5-monopoly",
+    "overall_odds": "4.28",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,234,800",
+        "total": "5"
+      },
+      {
+        "value": "$5,000",
+        "odds": "617,400",
+        "total": "10"
+      },
+      {
+        "value": "$1,000",
+        "odds": "98,000",
+        "total": "63"
+      },
+      {
+        "value": "$500",
+        "odds": "14,595.74",
+        "total": "423"
+      },
+      {
+        "value": "$200",
+        "odds": "8,469.14",
+        "total": "729"
+      },
+      {
+        "value": "$100",
+        "odds": "398.3",
+        "total": "15501"
+      },
+      {
+        "value": "$50",
+        "odds": "68.93",
+        "total": "89572"
+      },
+      {
+        "value": "$25",
+        "odds": "37.5",
+        "total": "164648"
+      },
+      {
+        "value": "$15",
+        "odds": "49.99",
+        "total": "123493"
+      },
+      {
+        "value": "$10",
+        "odds": "12",
+        "total": "514466"
+      },
+      {
+        "value": "$5",
+        "odds": "11.54",
+        "total": "535101"
+      }
+    ]
+  },
+  "21": {
+    "game_id": "21",
+    "game_name": "Winter Winfall",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "winter-winfall",
+    "guid": "b65972f3-9a21-4d7d-81fe-dda1dbc51f28",
+    "product_key": "winter-winfall",
+    "overall_odds": "3.19",
+    "prizes": [
+      {
+        "value": "$250,000",
+        "odds": "485,510",
+        "total": "3"
+      },
+      {
+        "value": "$50,000",
+        "odds": "728,265",
+        "total": "2"
+      },
+      {
+        "value": "$10,000",
+        "odds": "291,306",
+        "total": "5"
+      },
+      {
+        "value": "$2,000",
+        "odds": "60,688.75",
+        "total": "24"
+      },
+      {
+        "value": "$500",
+        "odds": "3,236.73",
+        "total": "450"
+      },
+      {
+        "value": "$200",
+        "odds": "80.8",
+        "total": "18027"
+      },
+      {
+        "value": "$100",
+        "odds": "29.54",
+        "total": "49314"
+      },
+      {
+        "value": "$50",
+        "odds": "20.01",
+        "total": "72786"
+      },
+      {
+        "value": "$40",
+        "odds": "30",
+        "total": "48551"
+      },
+      {
+        "value": "$30",
+        "odds": "11.99",
+        "total": "121499"
+      },
+      {
+        "value": "$20",
+        "odds": "10.01",
+        "total": "145572"
+      }
+    ]
+  },
+  "20": {
+    "game_id": "20",
+    "game_name": "Merry & Bright Blowout",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "merry-and-bright-blowout",
+    "guid": "4f6776bd-8ef9-46a1-b6b1-07c3dd05aa9b",
+    "product_key": "merry-bright-blowout",
+    "overall_odds": "9.95",
+    "prizes": [
+      {
+        "value": "$500",
+        "odds": "742.44",
+        "total": "4639"
+      },
+      {
+        "value": "$100",
+        "odds": "30.74",
+        "total": "112031"
+      },
+      {
+        "value": "$50",
+        "odds": "15",
+        "total": "229612"
+      }
+    ]
+  },
+  "19": {
+    "game_id": "19",
+    "game_name": "Holiday Cashword",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "holiday-cashword",
+    "guid": "04c4a874-457f-4a10-b157-7d50e4af192e",
+    "product_key": "holiday-cashword",
+    "overall_odds": "3.93",
+    "prizes": [
+      {
+        "value": "$150,000",
+        "odds": "1,235,420",
+        "total": "3"
+      },
+      {
+        "value": "$5,000",
+        "odds": "308,855",
+        "total": "12"
+      },
+      {
+        "value": "$1,000",
+        "odds": "59,778.39",
+        "total": "62"
+      },
+      {
+        "value": "$500",
+        "odds": "12,072.51",
+        "total": "307"
+      },
+      {
+        "value": "$250",
+        "odds": "10,016.92",
+        "total": "370"
+      },
+      {
+        "value": "$200",
+        "odds": "8,539.77",
+        "total": "434"
+      },
+      {
+        "value": "$100",
+        "odds": "690.31",
+        "total": "5369"
+      },
+      {
+        "value": "$75",
+        "odds": "536.36",
+        "total": "6910"
+      },
+      {
+        "value": "$50",
+        "odds": "200.12",
+        "total": "18520"
+      },
+      {
+        "value": "$25",
+        "odds": "60",
+        "total": "61771"
+      },
+      {
+        "value": "$20",
+        "odds": "21.82",
+        "total": "169889"
+      },
+      {
+        "value": "$10",
+        "odds": "12",
+        "total": "308853"
+      },
+      {
+        "value": "$5",
+        "odds": "10",
+        "total": "370600"
+      }
+    ]
+  },
+  "18": {
+    "game_id": "18",
+    "game_name": "Peppermint Payout",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "peppermint-payout",
+    "guid": "ba1c7d22-a4ca-45a6-b1a7-1ba4f3229720",
+    "product_key": "peppermint-payout",
+    "overall_odds": "4.07",
+    "prizes": [
+      {
+        "value": "$150,000",
+        "odds": "1,353,300",
+        "total": "3"
+      },
+      {
+        "value": "$10,000",
+        "odds": "676,650",
+        "total": "6"
+      },
+      {
+        "value": "$1,000",
+        "odds": "50,748.75",
+        "total": "80"
+      },
+      {
+        "value": "$500",
+        "odds": "6,246",
+        "total": "650"
+      },
+      {
+        "value": "$200",
+        "odds": "5,944.22",
+        "total": "683"
+      },
+      {
+        "value": "$100",
+        "odds": "601.64",
+        "total": "6748"
+      },
+      {
+        "value": "$50",
+        "odds": "74.84",
+        "total": "54248"
+      },
+      {
+        "value": "$30",
+        "odds": "73.85",
+        "total": "54978"
+      },
+      {
+        "value": "$20",
+        "odds": "50.01",
+        "total": "81182"
+      },
+      {
+        "value": "$15",
+        "odds": "60.07",
+        "total": "67584"
+      },
+      {
+        "value": "$10",
+        "odds": "12.49",
+        "total": "325011"
+      },
+      {
+        "value": "$5",
+        "odds": "10",
+        "total": "405947"
+      }
+    ]
+  },
+  "17": {
+    "game_id": "17",
+    "game_name": "White Elephant",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "white-elephant",
+    "guid": "62e650a5-3075-4ce3-bba3-13b901bcf2e3",
+    "product_key": "white-elephant",
+    "overall_odds": "4.47",
+    "prizes": [
+      {
+        "value": "$20,000",
+        "odds": "1,396,000",
+        "total": "3"
+      },
+      {
+        "value": "$1,000",
+        "odds": "261,750",
+        "total": "16"
+      },
+      {
+        "value": "$500",
+        "odds": "39,140.19",
+        "total": "107"
+      },
+      {
+        "value": "$100",
+        "odds": "2,607.72",
+        "total": "1606"
+      },
+      {
+        "value": "$50",
+        "odds": "2,072.24",
+        "total": "2021"
+      },
+      {
+        "value": "$20",
+        "odds": "62.48",
+        "total": "67026"
+      },
+      {
+        "value": "$10",
+        "odds": "25",
+        "total": "167495"
+      },
+      {
+        "value": "$5",
+        "odds": "50.02",
+        "total": "83720"
+      },
+      {
+        "value": "$4",
+        "odds": "16.66",
+        "total": "251323"
+      },
+      {
+        "value": "$2",
+        "odds": "11.54",
+        "total": "362919"
+      }
+    ]
+  },
+  "16": {
+    "game_id": "16",
+    "game_name": "Holiday $100s",
+    "ticket_price": "$1",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "holiday-100s",
+    "guid": "95df4113-59e8-4dd8-83da-ba2946a0c350",
+    "product_key": "holiday-100s",
+    "overall_odds": "4.87",
+    "prizes": [
+      {
+        "value": "$5,000",
+        "odds": "1,551,900",
+        "total": "4"
+      },
+      {
+        "value": "$100",
+        "odds": "987.68",
+        "total": "6285"
+      },
+      {
+        "value": "$50",
+        "odds": "2,993.06",
+        "total": "2074"
+      },
+      {
+        "value": "$20",
+        "odds": "1,197.68",
+        "total": "5183"
+      },
+      {
+        "value": "$10",
+        "odds": "100.05",
+        "total": "62042"
+      },
+      {
+        "value": "$5",
+        "odds": "49.99",
+        "total": "124172"
+      },
+      {
+        "value": "$3",
+        "odds": "99.97",
+        "total": "62092"
+      },
+      {
+        "value": "$2",
+        "odds": "13.64",
+        "total": "455221"
+      },
+      {
+        "value": "$1",
+        "odds": "11.11",
+        "total": "558682"
+      }
+    ]
+  },
+  "15": {
+    "game_id": "15",
+    "game_name": "Ultimate Blowout",
+    "ticket_price": "$50",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "ultimate-blowout",
+    "guid": "417d7f14-236d-4ab9-bada-4120fd604d7b",
+    "product_key": "ultimate-blowout",
+    "overall_odds": "8.26",
+    "prizes": [
+      {
+        "value": "$5,000",
+        "odds": "1,000.92",
+        "total": "3325"
+      },
+      {
+        "value": "$500",
+        "odds": "50.02",
+        "total": "66538"
+      },
+      {
+        "value": "$250",
+        "odds": "10",
+        "total": "332805"
+      }
+    ]
+  },
+  "14": {
+    "game_id": "14",
+    "game_name": "Magnificent Millions",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "magnificent-millions",
+    "guid": "421be055-3ea5-4271-8049-fc44232b2476",
+    "product_key": "magnificent-millions",
+    "overall_odds": "4.69",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,684,960",
+        "total": "3"
+      },
+      {
+        "value": "$10,000",
+        "odds": "280,826.67",
+        "total": "18"
+      },
+      {
+        "value": "$2,000",
+        "odds": "29,560.7",
+        "total": "171"
+      },
+      {
+        "value": "$500",
+        "odds": "801.73",
+        "total": "6305"
+      },
+      {
+        "value": "$200",
+        "odds": "79.9",
+        "total": "63265"
+      },
+      {
+        "value": "$100",
+        "odds": "21.67",
+        "total": "233264"
+      },
+      {
+        "value": "$50",
+        "odds": "15",
+        "total": "336992"
+      },
+      {
+        "value": "$40",
+        "odds": "11.54",
+        "total": "437999"
+      }
+    ]
+  },
+  "13": {
+    "game_id": "13",
+    "game_name": "High Voltage Cash",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "high-voltage-cash",
+    "guid": "c09daae1-7b8c-466b-8bfd-aed456e94fb9",
+    "product_key": "high-voltage-cash",
+    "overall_odds": "4.24",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,506,165",
+        "total": "4"
+      },
+      {
+        "value": "$5,000",
+        "odds": "602,466",
+        "total": "10"
+      },
+      {
+        "value": "$2,000",
+        "odds": "207,746.9",
+        "total": "29"
+      },
+      {
+        "value": "$500",
+        "odds": "19,434.39",
+        "total": "310"
+      },
+      {
+        "value": "$200",
+        "odds": "9,925.3",
+        "total": "607"
+      },
+      {
+        "value": "$100",
+        "odds": "594.73",
+        "total": "10130"
+      },
+      {
+        "value": "$50",
+        "odds": "74.95",
+        "total": "80382"
+      },
+      {
+        "value": "$25",
+        "odds": "26.67",
+        "total": "225935"
+      },
+      {
+        "value": "$15",
+        "odds": "60",
+        "total": "100413"
+      },
+      {
+        "value": "$10",
+        "odds": "12.63",
+        "total": "476942"
+      },
+      {
+        "value": "$5",
+        "odds": "11.43",
+        "total": "527121"
+      }
+    ]
+  },
+  "12": {
+    "game_id": "12",
+    "game_name": "Cash Drop",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "cash-drop",
+    "guid": "5666711b-dc9e-4390-854e-579cb324b4f8",
+    "product_key": "cash-drop",
+    "overall_odds": "4.63",
+    "prizes": [
+      {
+        "value": "$20,000",
+        "odds": "1,720,387.5",
+        "total": "4"
+      },
+      {
+        "value": "$2,000",
+        "odds": "286,731.25",
+        "total": "24"
+      },
+      {
+        "value": "$500",
+        "odds": "78,199.43",
+        "total": "88"
+      },
+      {
+        "value": "$200",
+        "odds": "25,968.11",
+        "total": "265"
+      },
+      {
+        "value": "$100",
+        "odds": "4,775.54",
+        "total": "1441"
+      },
+      {
+        "value": "$50",
+        "odds": "2,907.29",
+        "total": "2367"
+      },
+      {
+        "value": "$40",
+        "odds": "1,842.94",
+        "total": "3734"
+      },
+      {
+        "value": "$20",
+        "odds": "37.5",
+        "total": "183508"
+      },
+      {
+        "value": "$10",
+        "odds": "60.02",
+        "total": "114662"
+      },
+      {
+        "value": "$5",
+        "odds": "49.99",
+        "total": "137661"
+      },
+      {
+        "value": "$4",
+        "odds": "15.38",
+        "total": "447328"
+      },
+      {
+        "value": "$2",
+        "odds": "11.54",
+        "total": "596424"
+      }
+    ]
+  },
+  "11": {
+    "game_id": "11",
+    "game_name": "$1,000,000 Bonus Match",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "1-million-bonus-match",
+    "guid": "229cc4cf-24c6-4d7c-98a5-b1060a247183",
+    "product_key": "1000000-bonus-match",
+    "overall_odds": "3.76",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,479,636",
+        "total": "5"
+      },
+      {
+        "value": "$50,000",
+        "odds": "1,479,636",
+        "total": "5"
+      },
+      {
+        "value": "$10,000",
+        "odds": "369,909",
+        "total": "20"
+      },
+      {
+        "value": "$5,000",
+        "odds": "246,606",
+        "total": "30"
+      },
+      {
+        "value": "$2,000",
+        "odds": "71,826.99",
+        "total": "103"
+      },
+      {
+        "value": "$500",
+        "odds": "3,082.58",
+        "total": "2400"
+      },
+      {
+        "value": "$200",
+        "odds": "1,496.4",
+        "total": "4944"
+      },
+      {
+        "value": "$100",
+        "odds": "80.13",
+        "total": "92329"
+      },
+      {
+        "value": "$50",
+        "odds": "29.98",
+        "total": "246743"
+      },
+      {
+        "value": "$30",
+        "odds": "79.63",
+        "total": "92908"
+      },
+      {
+        "value": "$20",
+        "odds": "9.38",
+        "total": "788786"
+      },
+      {
+        "value": "$10",
+        "odds": "9.99",
+        "total": "740360"
+      }
+    ]
+  },
+  "10": {
+    "game_id": "10",
+    "game_name": "Double Your Money",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "double-your-money",
+    "guid": "b2c5958f-5beb-41b5-9df8-c809437c3ab3",
+    "product_key": "double-your-money",
+    "overall_odds": "4.98",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,211,052",
+        "total": "5"
+      },
+      {
+        "value": "$10,000",
+        "odds": "605,526",
+        "total": "10"
+      },
+      {
+        "value": "$2,000",
+        "odds": "201,842",
+        "total": "30"
+      },
+      {
+        "value": "$500",
+        "odds": "29,252.46",
+        "total": "207"
+      },
+      {
+        "value": "$200",
+        "odds": "14,768.93",
+        "total": "410"
+      },
+      {
+        "value": "$100",
+        "odds": "1,201.44",
+        "total": "5040"
+      },
+      {
+        "value": "$50",
+        "odds": "200.43",
+        "total": "30212"
+      },
+      {
+        "value": "$30",
+        "odds": "30.7",
+        "total": "197218"
+      },
+      {
+        "value": "$20",
+        "odds": "34.27",
+        "total": "176713"
+      },
+      {
+        "value": "$10",
+        "odds": "7.5",
+        "total": "807221"
+      }
+    ]
+  },
+  "9": {
+    "game_id": "9",
+    "game_name": "Spooky Loot",
+    "ticket_price": "$2",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "spooky-loot",
+    "guid": "4a7efe64-d169-4517-bbcf-4356fbd1ce57",
+    "product_key": "spooky-loot",
+    "overall_odds": "4.67",
+    "prizes": [
+      {
+        "value": "$20,000",
+        "odds": "1,171,575",
+        "total": "4"
+      },
+      {
+        "value": "$1,000",
+        "odds": "234,315",
+        "total": "20"
+      },
+      {
+        "value": "$500",
+        "odds": "55,789.29",
+        "total": "84"
+      },
+      {
+        "value": "$200",
+        "odds": "39,052.5",
+        "total": "120"
+      },
+      {
+        "value": "$100",
+        "odds": "4,012.24",
+        "total": "1168"
+      },
+      {
+        "value": "$50",
+        "odds": "1,553.81",
+        "total": "3016"
+      },
+      {
+        "value": "$20",
+        "odds": "50",
+        "total": "93723"
+      },
+      {
+        "value": "$10",
+        "odds": "29.99",
+        "total": "156286"
+      },
+      {
+        "value": "$5",
+        "odds": "50.1",
+        "total": "93540"
+      },
+      {
+        "value": "$4",
+        "odds": "16.67",
+        "total": "281180"
+      },
+      {
+        "value": "$2",
+        "odds": "12.5",
+        "total": "375015"
+      }
+    ]
+  },
+  "8": {
+    "game_id": "8",
+    "game_name": "Ruby Red 7's",
+    "ticket_price": "$20",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "ruby-red-7s",
+    "guid": "d8427aca-f1e0-4a82-88c5-9f51632f7cdb",
+    "product_key": "ruby-red-7s",
+    "overall_odds": "3.45",
+    "prizes": [
+      {
+        "value": "$2,000,000",
+        "odds": "1,707,230",
+        "total": "3"
+      },
+      {
+        "value": "$100,000",
+        "odds": "569,076.67",
+        "total": "9"
+      },
+      {
+        "value": "$10,000",
+        "odds": "170,723",
+        "total": "30"
+      },
+      {
+        "value": "$1,000",
+        "odds": "23,602.26",
+        "total": "217"
+      },
+      {
+        "value": "$500",
+        "odds": "3,007.45",
+        "total": "1703"
+      },
+      {
+        "value": "$400",
+        "odds": "2,965.66",
+        "total": "1727"
+      },
+      {
+        "value": "$200",
+        "odds": "60.05",
+        "total": "85297"
+      },
+      {
+        "value": "$100",
+        "odds": "30.83",
+        "total": "166101"
+      },
+      {
+        "value": "$50",
+        "odds": "29.98",
+        "total": "170843"
+      },
+      {
+        "value": "$40",
+        "odds": "37.5",
+        "total": "136591"
+      },
+      {
+        "value": "$30",
+        "odds": "12.51",
+        "total": "409290"
+      },
+      {
+        "value": "$20",
+        "odds": "9.99",
+        "total": "512573"
+      }
+    ]
+  },
+  "7": {
+    "game_id": "7",
+    "game_name": "Cashword King",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "cashword-king",
+    "guid": "56a9aee6-a80f-41b2-a698-8b3441e4a84f",
+    "product_key": "cashword-king",
+    "overall_odds": "3.57",
+    "prizes": [
+      {
+        "value": "$1,000,000",
+        "odds": "1,208,752.5",
+        "total": "4"
+      },
+      {
+        "value": "$10,000",
+        "odds": "604,376.25",
+        "total": "8"
+      },
+      {
+        "value": "$5,000",
+        "odds": "402,917.5",
+        "total": "12"
+      },
+      {
+        "value": "$2,000",
+        "odds": "201,458.75",
+        "total": "24"
+      },
+      {
+        "value": "$1,000",
+        "odds": "77,984.03",
+        "total": "62"
+      },
+      {
+        "value": "$500",
+        "odds": "5,969.15",
+        "total": "810"
+      },
+      {
+        "value": "$200",
+        "odds": "2,374.76",
+        "total": "2036"
+      },
+      {
+        "value": "$100",
+        "odds": "107.13",
+        "total": "45131"
+      },
+      {
+        "value": "$50",
+        "odds": "49.99",
+        "total": "96717"
+      },
+      {
+        "value": "$40",
+        "odds": "100.05",
+        "total": "48324"
+      },
+      {
+        "value": "$30",
+        "odds": "25",
+        "total": "193375"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "483501"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "483501"
+      }
+    ]
+  },
+  "6": {
+    "game_id": "6",
+    "game_name": "Jurassic Park",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "jurassic-park",
+    "guid": "896de14f-3f34-4b0b-952d-531a4c1a8927",
+    "product_key": "jurassic-park",
+    "overall_odds": "4.28",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,273,980",
+        "total": "4"
+      },
+      {
+        "value": "$4,000",
+        "odds": "424,660",
+        "total": "12"
+      },
+      {
+        "value": "$1,000",
+        "odds": "61,396.63",
+        "total": "83"
+      },
+      {
+        "value": "$400",
+        "odds": "7,815.83",
+        "total": "652"
+      },
+      {
+        "value": "$100",
+        "odds": "672.46",
+        "total": "7578"
+      },
+      {
+        "value": "$50",
+        "odds": "60.02",
+        "total": "84899"
+      },
+      {
+        "value": "$30",
+        "odds": "179.19",
+        "total": "28439"
+      },
+      {
+        "value": "$20",
+        "odds": "25",
+        "total": "203828"
+      },
+      {
+        "value": "$10",
+        "odds": "12",
+        "total": "424657"
+      },
+      {
+        "value": "$5",
+        "odds": "11.54",
+        "total": "441667"
+      }
+    ]
+  },
+  "5": {
+    "game_id": "5",
+    "game_name": "$50 Frenzy",
+    "ticket_price": "$1",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "50-frenzy",
+    "guid": "5bcaa655-a374-4a11-9912-4507f00c2a95",
+    "product_key": "50-frenzy",
+    "overall_odds": "4.90",
+    "prizes": [
+      {
+        "value": "$5,000",
+        "odds": "1,542,850",
+        "total": "6"
+      },
+      {
+        "value": "$100",
+        "odds": "117,178.48",
+        "total": "79"
+      },
+      {
+        "value": "$50",
+        "odds": "400.03",
+        "total": "23141"
+      },
+      {
+        "value": "$20",
+        "odds": "1,203.31",
+        "total": "7693"
+      },
+      {
+        "value": "$10",
+        "odds": "119.93",
+        "total": "77185"
+      },
+      {
+        "value": "$5",
+        "odds": "44.44",
+        "total": "208309"
+      },
+      {
+        "value": "$3",
+        "odds": "100.03",
+        "total": "92544"
+      },
+      {
+        "value": "$2",
+        "odds": "13.64",
+        "total": "678875"
+      },
+      {
+        "value": "$1",
+        "odds": "11.54",
+        "total": "802221"
+      }
+    ]
+  },
+  "4": {
+    "game_id": "4",
+    "game_name": "Carolina Black Premier",
+    "ticket_price": "$30",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "carolina-black-premier",
+    "guid": "496c3c33-7079-48d7-a104-ffec0fb1f6a9",
+    "product_key": "carolina-black-premier",
+    "overall_odds": "4.18",
+    "prizes": [
+      {
+        "value": "$4,000,000",
+        "odds": "2,462,700",
+        "total": "3"
+      },
+      {
+        "value": "$100,000",
+        "odds": "1,231,350",
+        "total": "6"
+      },
+      {
+        "value": "$40,000",
+        "odds": "820,900",
+        "total": "9"
+      },
+      {
+        "value": "$10,000",
+        "odds": "123,135",
+        "total": "60"
+      },
+      {
+        "value": "$4,000",
+        "odds": "58,635.71",
+        "total": "126"
+      },
+      {
+        "value": "$1,000",
+        "odds": "30,155.51",
+        "total": "245"
+      },
+      {
+        "value": "$400",
+        "odds": "79.96",
+        "total": "92401"
+      },
+      {
+        "value": "$150",
+        "odds": "54.47",
+        "total": "135638"
+      },
+      {
+        "value": "$100",
+        "odds": "15",
+        "total": "492619"
+      },
+      {
+        "value": "$60",
+        "odds": "17.14",
+        "total": "430997"
+      },
+      {
+        "value": "$50",
+        "odds": "12",
+        "total": "615468"
+      }
+    ]
+  },
+  "3": {
+    "game_id": "3",
+    "game_name": "Hot $2,000",
+    "ticket_price": "$10",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "hot-2000",
+    "guid": "ce22f816-0f2b-4a20-8632-82f0706173de",
+    "product_key": "hot-2000",
+    "overall_odds": "3.80",
+    "prizes": [
+      {
+        "value": "$2,000",
+        "odds": "2,997.99",
+        "total": "2048"
+      },
+      {
+        "value": "$500",
+        "odds": "11,784.82",
+        "total": "521"
+      },
+      {
+        "value": "$200",
+        "odds": "5,898.07",
+        "total": "1041"
+      },
+      {
+        "value": "$100",
+        "odds": "99.92",
+        "total": "61445"
+      },
+      {
+        "value": "$50",
+        "odds": "25.02",
+        "total": "245412"
+      },
+      {
+        "value": "$40",
+        "odds": "78.52",
+        "total": "78199"
+      },
+      {
+        "value": "$20",
+        "odds": "10",
+        "total": "614013"
+      },
+      {
+        "value": "$10",
+        "odds": "10",
+        "total": "613941"
+      }
+    ]
+  },
+  "2": {
+    "game_id": "2",
+    "game_name": "LOTERIA\u00ae Fiesta",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "loteria-fiesta",
+    "guid": "7296c783-5f29-4d94-94b7-bf1471042763",
+    "product_key": "loteria-fiesta",
+    "overall_odds": "3.86",
+    "prizes": [
+      {
+        "value": "$150,000",
+        "odds": "1,221,220",
+        "total": "6"
+      },
+      {
+        "value": "$10,000",
+        "odds": "610,610",
+        "total": "12"
+      },
+      {
+        "value": "$1,000",
+        "odds": "407,073.33",
+        "total": "18"
+      },
+      {
+        "value": "$500",
+        "odds": "58,618.56",
+        "total": "125"
+      },
+      {
+        "value": "$300",
+        "odds": "29,192.51",
+        "total": "251"
+      },
+      {
+        "value": "$200",
+        "odds": "11,742.5",
+        "total": "624"
+      },
+      {
+        "value": "$100",
+        "odds": "748.37",
+        "total": "9791"
+      },
+      {
+        "value": "$75",
+        "odds": "1,493.24",
+        "total": "4907"
+      },
+      {
+        "value": "$50",
+        "odds": "240.43",
+        "total": "30476"
+      },
+      {
+        "value": "$40",
+        "odds": "803.35",
+        "total": "9121"
+      },
+      {
+        "value": "$30",
+        "odds": "104.47",
+        "total": "70138"
+      },
+      {
+        "value": "$25",
+        "odds": "60.01",
+        "total": "122104"
+      },
+      {
+        "value": "$20",
+        "odds": "48",
+        "total": "152661"
+      },
+      {
+        "value": "$15",
+        "odds": "30",
+        "total": "244244"
+      },
+      {
+        "value": "$10",
+        "odds": "14.12",
+        "total": "519019"
+      },
+      {
+        "value": "$5",
+        "odds": "10",
+        "total": "732764"
+      }
+    ]
+  },
+  "1": {
+    "game_id": "1",
+    "game_name": "5 Times Lucky",
+    "ticket_price": "$5",
+    "status": "ACTIVE",
+    "first_seen": "2025-12-21T15:48:20.110926",
+    "last_seen": "2025-12-21T16:21:53.843723",
+    "miss_count": 0,
+    "death_date": null,
+    "url_slug": "5-times-lucky",
+    "guid": "073d3983-a72a-4f4d-97b0-5982467712e5",
+    "product_key": "5-times-lucky",
+    "overall_odds": "4.28",
+    "prizes": [
+      {
+        "value": "$200,000",
+        "odds": "1,216,440",
+        "total": "5"
+      },
+      {
+        "value": "$10,000",
+        "odds": "608,220",
+        "total": "10"
+      },
+      {
+        "value": "$2,000",
+        "odds": "152,055",
+        "total": "40"
+      },
+      {
+        "value": "$500",
+        "odds": "14,726.88",
+        "total": "413"
+      },
+      {
+        "value": "$200",
+        "odds": "4,965.06",
+        "total": "1225"
+      },
+      {
+        "value": "$100",
+        "odds": "602.68",
+        "total": "10092"
+      },
+      {
+        "value": "$50",
+        "odds": "83.72",
+        "total": "72650"
+      },
+      {
+        "value": "$25",
+        "odds": "25",
+        "total": "243322"
+      },
+      {
+        "value": "$15",
+        "odds": "100.06",
+        "total": "60788"
+      },
+      {
+        "value": "$10",
+        "odds": "12",
+        "total": "506777"
+      },
+      {
+        "value": "$5",
+        "odds": "11.54",
+        "total": "527202"
+      }
+    ]
+  }
+}
