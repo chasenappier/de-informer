@@ -37,79 +37,79 @@ def fetch_game_dna(game_id, url_slug, browser):
     page.close()
     return "Unknown"
 
-def fetch_games_with_evidence():
+def fetch_games_with_evidence(playwright):
     """
     Uses Playwright to capture both Data and Visual Evidence.
     """
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(user_agent=get_random_user_agent())
-        page = context.new_page()
+    browser = playwright.chromium.launch(headless=True)
+    context = browser.new_context(user_agent=get_random_user_agent())
+    page = context.new_page()
+    
+    print(f"Navigating to {TARGET_URL}...")
+    try:
+        page.goto(TARGET_URL, timeout=60000, wait_until="networkidle")
+        # Wait for the databoxes to load
+        page.wait_for_selector('div.databox', timeout=20000)
         
-        print(f"Navigating to {TARGET_URL}...")
-        try:
-            page.goto(TARGET_URL, timeout=60000, wait_until="networkidle")
-            # Wait for the databoxes to load
-            page.wait_for_selector('div.databox', timeout=20000)
-            
-            # Capture Visual Evidence (Receipt)
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-            receipt_path = f"receipt_{timestamp}.png"
-            page.screenshot(path=receipt_path, full_page=True)
-            print(f"  Evidence Captured: {receipt_path}")
-            
-            # Extract HTML content
-            html = page.content()
-            soup = BeautifulSoup(html, 'html.parser')
-            game_boxes = soup.select('div.databox')
-            
-            if len(game_boxes) < SAFETY_THRESHOLD:
-                print(f"Safety Brake Triggered: Found only {len(game_boxes)} games. Aborting.")
-                browser.close()
-                return None, None
-
-            games = []
-            for box in game_boxes:
-                id_span = box.select_one('span.gamenumber')
-                game_id = "".join(filter(str.isdigit, id_span.get_text())) if id_span else None
-                
-                name_link = box.select_one('span.gamename a')
-                game_name = name_link.get_text(strip=True) if name_link else "Unknown"
-                
-                url_slug = "unknown"
-                if name_link and 'href' in name_link.attrs:
-                    parts = name_link['href'].strip('/').split('/')
-                    if len(parts) >= 3:
-                        url_slug = parts[2]
-
-                # Extract Static Prize Table
-                prizes = []
-                table = box.select_one('table.datatable')
-                if table:
-                    rows = table.select('tbody tr')
-                    for row in rows:
-                        cols = row.select('td')
-                        if len(cols) >= 4:
-                            prizes.append({
-                                "value": cols[0].get_text(strip=True),
-                                "odds": cols[1].get_text(strip=True).replace('1 in ', ''),
-                                "total": cols[2].get_text(strip=True).replace(',', '')
-                            })
-                
-                if game_id:
-                    games.append({
-                        "game_id": game_id,
-                        "game_name": game_name,
-                        "ticket_price": "Unknown", # Optional: can extract from class
-                        "url_slug": url_slug,
-                        "prizes": prizes
-                    })
-            
-            return games, receipt_path, browser
-            
-        except Exception as e:
-            print(f"Error during playwright run: {e}")
+        # Capture Visual Evidence (Receipt)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+        receipt_path = f"receipt_{timestamp}.png"
+        page.screenshot(path=receipt_path, full_page=True)
+        print(f"  Evidence Captured: {receipt_path}")
+        
+        # Extract HTML content
+        html = page.content()
+        soup = BeautifulSoup(html, 'html.parser')
+        game_boxes = soup.select('div.databox')
+        
+        if len(game_boxes) < SAFETY_THRESHOLD:
+            print(f"Safety Brake Triggered: Found only {len(game_boxes)} games. Aborting.")
+            browser.close()
             return None, None, None
+
+        games = []
+        for box in game_boxes:
+            id_span = box.select_one('span.gamenumber')
+            game_id = "".join(filter(str.isdigit, id_span.get_text())) if id_span else None
+            
+            name_link = box.select_one('span.gamename a')
+            game_name = name_link.get_text(strip=True) if name_link else "Unknown"
+            
+            url_slug = "unknown"
+            if name_link and 'href' in name_link.attrs:
+                parts = name_link['href'].strip('/').split('/')
+                if len(parts) >= 3:
+                    url_slug = parts[2]
+
+            # Extract Static Prize Table
+            prizes = []
+            table = box.select_one('table.datatable')
+            if table:
+                rows = table.select('tbody tr')
+                for row in rows:
+                    cols = row.select('td')
+                    if len(cols) >= 4:
+                        prizes.append({
+                            "value": cols[0].get_text(strip=True),
+                            "odds": cols[1].get_text(strip=True).replace('1 in ', ''),
+                            "total": cols[2].get_text(strip=True).replace(',', '')
+                        })
+            
+            if game_id:
+                games.append({
+                    "game_id": game_id,
+                    "game_name": game_name,
+                    "ticket_price": "Unknown", # Optional: can extract from class
+                    "url_slug": url_slug,
+                    "prizes": prizes
+                })
+        
+        return games, receipt_path, browser
+        
+    except Exception as e:
+        print(f"Error during playwright run: {e}")
+        browser.close()
+        return None, None, None
 
 def update_registry(live_games, browser):
     now = datetime.now().isoformat()
@@ -180,19 +180,21 @@ def update_registry(live_games, browser):
 
 if __name__ == "__main__":
     print(f"Starting Census at {datetime.now().isoformat()}...")
-    browser_instance = None # Initialize browser_instance to None
-    try:
-        live_games, receipt_file, browser_instance = fetch_games_with_evidence()
-        
-        if live_games:
-            update_registry(live_games, browser_instance)
-            # Store receipt filename for sync.py
-            if receipt_file:
-                with open('.last_receipt', 'w') as f:
-                    f.write(receipt_file)
-            print("Census complete.")
-        else:
-            print("Census aborted or failed.")
-    finally:
-        if browser_instance:
-            browser_instance.close()
+    
+    with sync_playwright() as p:
+        browser_instance = None
+        try:
+            live_games, receipt_file, browser_instance = fetch_games_with_evidence(p)
+            
+            if live_games:
+                update_registry(live_games, browser_instance)
+                # Store receipt filename for sync.py
+                if receipt_file:
+                    with open('.last_receipt', 'w') as f:
+                        f.write(receipt_file)
+                print("Census complete.")
+            else:
+                print("Census aborted or failed.")
+        finally:
+            if browser_instance:
+                browser_instance.close()
