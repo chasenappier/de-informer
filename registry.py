@@ -109,7 +109,6 @@ def fetch_games_with_evidence():
             
         except Exception as e:
             print(f"Error during playwright run: {e}")
-            browser.close()
             return None, None, None
 
 def update_registry(live_games, browser):
@@ -181,17 +180,19 @@ def update_registry(live_games, browser):
 
 if __name__ == "__main__":
     print(f"Starting Census at {datetime.now().isoformat()}...")
-    live_games, receipt_file, browser = fetch_games_with_evidence()
-    
-    if live_games:
-        update_registry(live_games, browser)
-        # Store receipt filename for sync.py
-        if receipt_file:
-            with open('.last_receipt', 'w') as f:
-                f.write(receipt_file)
-        print("Census complete.")
-    else:
-        print("Census aborted or failed.")
-    
-    if browser:
-        browser.close()
+    browser_instance = None # Initialize browser_instance to None
+    try:
+        live_games, receipt_file, browser_instance = fetch_games_with_evidence()
+        
+        if live_games:
+            update_registry(live_games, browser_instance)
+            # Store receipt filename for sync.py
+            if receipt_file:
+                with open('.last_receipt', 'w') as f:
+                    f.write(receipt_file)
+            print("Census complete.")
+        else:
+            print("Census aborted or failed.")
+    finally:
+        if browser_instance:
+            browser_instance.close()
