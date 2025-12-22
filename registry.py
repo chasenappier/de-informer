@@ -51,11 +51,24 @@ def fetch_games_with_evidence(playwright):
         # Wait for the databoxes to load
         page.wait_for_selector('div.databox', timeout=20000)
         
-        # Capture Visual Evidence (Receipt)
+       # Capture Visual Evidence (Receipt)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M")
         receipt_path = f"receipt_{timestamp}.png"
         page.screenshot(path=receipt_path, full_page=True)
-        print(f"  Evidence Captured: {receipt_path}")
+        
+        # --- NEW: Capture Raw HTML Evidence ---
+        html_path = f"source_{timestamp}.html"
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(page.content())
+        print(f"  Evidence Captured: {receipt_path} and {html_path}")
+        
+        # Update the hidden hand-off file to include the HTML path
+        if receipt_path:
+            with open('.last_evidence', 'w') as f:
+                f.write(f"{receipt_path},{html_path}")
+
+
+      
         
         # Extract HTML content
         html = page.content()
