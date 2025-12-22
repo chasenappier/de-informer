@@ -4,6 +4,7 @@ import os
 import random
 import uuid
 import re
+import time
 from datetime import datetime
 from user_agents import get_random_user_agent
 from bs4 import BeautifulSoup
@@ -11,6 +12,7 @@ from bs4 import BeautifulSoup
 TARGET_URL = "https://nclottery.com/scratch-off-prizes-remaining"
 REGISTRY_FILE = "registry.json"
 SAFETY_THRESHOLD = 40
+DEEP_DIVE_LIMIT = 5 # Max new deep dives per run to avoid throttling
 
 def slugify(text):
     text = text.lower()
@@ -24,9 +26,15 @@ def fetch_game_dna(game_id, url_slug, browser):
     Only called when missing to keep things fast.
     """
     url = f"https://nclottery.com/scratch-off/{game_id}/{url_slug}"
+    # Random wait before deep dive
+    time.sleep(random.uniform(2, 5))
+    
     page = browser.new_page(user_agent=get_random_user_agent())
     try:
         page.goto(url, timeout=30000, wait_until="networkidle")
+        # Simulate reading the page
+        time.sleep(random.uniform(1, 3))
+        
         odds_val = page.query_selector('.odds.value')
         if odds_val:
             val = odds_val.inner_text().replace('1 in ', '').strip()
@@ -49,9 +57,10 @@ def fetch_games_with_evidence(playwright):
     try:
         page.goto(TARGET_URL, timeout=60000, wait_until="networkidle")
         # Wait for the databoxes to load
-        page.wait_for_selector('div.databox', timeout=20000)
+        # Human Jitter: Wait for page to "settle"
+        time.sleep(random.uniform(3, 7))
         
-       # Capture Visual Evidence (Receipt)
+        # Capture Visual Evidence (Receipt)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M")
         receipt_path = f"receipt_{timestamp}.png"
         page.screenshot(path=receipt_path, full_page=True)
@@ -168,6 +177,21 @@ def update_registry(live_games, browser):
                 "miss_count": 0,
                 "death_date": None
             }
+
+    # --- DNA RECOVERY (Improvement 3) ---
+    # Look for existing games with "Unknown" DNA and try to heal them
+    healing_count = 0
+    for gid, data in registry.items():
+        if healing_count >= DEEP_DIVE_LIMIT:
+            break
+            
+        if data["status"] == "ACTIVE" and data.get("overall_odds", "Unknown") == "Unknown":
+            print(f"  DNA Recovery: Re-probing {gid}...")
+            new_odds = fetch_game_dna(gid, data['url_slug'], browser)
+            if new_odds != "Unknown":
+                data["overall_odds"] = new_odds
+                healing_count += 1
+                print(f"  DNA Recovery Success: {gid} odds set to {new_odds}")
 
     # DEATH Management
     for gid, data in registry.items():
