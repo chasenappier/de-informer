@@ -2,6 +2,7 @@ import os
 import json
 import boto3 # For R2 (S3-compatible)
 from botocore.config import Config
+from datetime import datetime
 
 def sync_to_r2():
     """
