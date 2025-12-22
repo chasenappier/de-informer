@@ -1,3 +1,8 @@
+import os
+import boto3
+from botocore.config import Config
+from datetime import datetime
+
 def sync_to_r2():
     if not all(os.getenv(v) for v in ['R2_ACCESS_KEY', 'R2_SECRET_KEY', 'R2_ENDPOINT']):
         print("Cloud Sync Skipped: Missing R2 Credentials.")
@@ -35,7 +40,11 @@ def sync_to_r2():
     if os.path.exists('.last_evidence'):
         try:
             with open('.last_evidence', 'r') as f:
-                png_file, html_file = f.read().strip().split(',')
+                content = f.read().strip()
+                if ',' not in content:
+                    print(f"Cloud Sync: .last_evidence format invalid: {content}")
+                    return
+                png_file, html_file = content.split(',')
             
             for file_path, sub_folder, mime in [(png_file, 'receipts', 'image/png'), 
                                                (html_file, 'raw_source', 'text/html')]:
@@ -45,8 +54,13 @@ def sync_to_r2():
                                      Key=f"{sub_folder}/{folder_path}/{file_path}",
                                      Body=f, ContentType=mime)
                     os.remove(file_path) # Cleanup factory floor
+                    print(f"Cloud Sync: {sub_folder} vaulted.")
+                else:
+                    print(f"Cloud Sync Warning: {file_path} not found.")
             
             os.remove('.last_evidence')
-            print("Cloud Sync: Visual and Source evidence vaulted.")
         except Exception as e:
             print(f"Cloud Sync Failed (Evidence): {e}")
+
+if __name__ == "__main__":
+    sync_to_r2()

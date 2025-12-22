@@ -1,6 +1,9 @@
 name: Inventory Registry
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 */6 * * *' # Run every 6 hours
   workflow_dispatch: # Allow manual trigger

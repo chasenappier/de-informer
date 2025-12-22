@@ -62,14 +62,6 @@ def fetch_games_with_evidence(playwright):
             f.write(page.content())
         print(f"  Evidence Captured: {receipt_path} and {html_path}")
         
-        # Update the hidden hand-off file to include the HTML path
-        if receipt_path:
-            with open('.last_evidence', 'w') as f:
-                f.write(f"{receipt_path},{html_path}")
-
-
-      
-        
         # Extract HTML content
         html = page.content()
         soup = BeautifulSoup(html, 'html.parser')
@@ -117,12 +109,12 @@ def fetch_games_with_evidence(playwright):
                     "prizes": prizes
                 })
         
-        return games, receipt_path, browser
+        return games, receipt_path, html_path, browser
         
     except Exception as e:
         print(f"Error during playwright run: {e}")
         browser.close()
-        return None, None, None
+        return None, None, None, None
 
 def update_registry(live_games, browser):
     now = datetime.now().isoformat()
@@ -197,14 +189,17 @@ if __name__ == "__main__":
     with sync_playwright() as p:
         browser_instance = None
         try:
-            live_games, receipt_file, browser_instance = fetch_games_with_evidence(p)
+            live_games, receipt_file, html_file, browser_instance = fetch_games_with_evidence(p)
             
             if live_games:
                 update_registry(live_games, browser_instance)
-                # Store receipt filename for sync.py
-                if receipt_file:
-                    with open('.last_receipt', 'w') as f:
-                        f.write(receipt_file)
+                
+                # Vault the evidence hand-off for sync.py
+                if receipt_file and html_file:
+                    with open('.last_evidence', 'w') as f:
+                        f.write(f"{receipt_file},{html_file}")
+                    print(f"Evidence hand-off created: {receipt_file}, {html_file}")
+                
                 print("Census complete.")
             else:
                 print("Census aborted or failed.")
