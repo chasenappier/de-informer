@@ -21,17 +21,34 @@ def sync_to_r2():
 
     public_url_base = os.getenv('R2_PUBLIC_URL', '').rstrip('/')
 
-    # 1. Upload Registry
+# 1. Upload Registry (Dual-Upload Strategy)
     try:
+        # Create a timestamp for the historical archive
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+        
         with open('registry.json', 'rb') as f:
+            registry_data = f.read()
+
+            # --- UPLOAD A: The Historical Snapshot ---
+            # This creates a 'timeline' folder in R2 that never overwrites
+            s3.put_object(
+                Bucket=os.getenv('R2_BUCKET'),
+                Key=f"timeline/registry_{timestamp}.json",
+                Body=registry_data,
+                ContentType='application/json'
+            )
+
+            # --- UPLOAD B: The Live Mirror ---
+            # This remains 'registry.json' so your frontend always finds it
             s3.put_object(
                 Bucket=os.getenv('R2_BUCKET'),
                 Key='registry.json',
-                Body=f,
+                Body=registry_data,
                 ContentType='application/json'
             )
+
         msg = f" at {public_url_base}/registry.json" if public_url_base else ""
-        print(f"Cloud Sync: registry.json pushed to R2{msg}.")
+        print(f"Cloud Sync: Live registry and Snapshot ({timestamp}) pushed to R2{msg}.")
     except Exception as e:
         print(f"Cloud Sync Failed (JSON): {e}")
 
