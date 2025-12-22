@@ -1,13 +1,4 @@
-import os
-import json
-import boto3 # For R2 (S3-compatible)
-from botocore.config import Config
-from datetime import datetime
-
 def sync_to_r2():
-    """
-    Push registry.json and Visual Receipt to Cloudflare R2.
-    """
     if not all(os.getenv(v) for v in ['R2_ACCESS_KEY', 'R2_SECRET_KEY', 'R2_ENDPOINT']):
         print("Cloud Sync Skipped: Missing R2 Credentials.")
         return
@@ -20,61 +11,42 @@ def sync_to_r2():
         config=Config(signature_version='s3v4')
     )
 
-    public_url_base = os.getenv('R2_PUBLIC_URL', '').rstrip('/')
+    now = datetime.now()
+    # Organized Path: 2025/12/registry_20251222_1800.json
+    folder_path = now.strftime("%Y/%m")
+    timestamp = now.strftime("%Y%m%d_%H%M")
 
-# 1. Upload Registry (Dual-Upload Strategy)
+    # 1. Upload Registry (Archive + Live)
     try:
-        # Create a timestamp for the historical archive
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-        
         with open('registry.json', 'rb') as f:
-            registry_data = f.read()
-
-            # --- UPLOAD A: The Historical Snapshot ---
-            # This creates a 'timeline' folder in R2 that never overwrites
-            s3.put_object(
-                Bucket=os.getenv('R2_BUCKET'),
-                Key=f"timeline/registry_{timestamp}.json",
-                Body=registry_data,
-                ContentType='application/json'
-            )
-
-            # --- UPLOAD B: The Live Mirror ---
-            # This remains 'registry.json' so your frontend always finds it
-            s3.put_object(
-                Bucket=os.getenv('R2_BUCKET'),
-                Key='registry.json',
-                Body=registry_data,
-                ContentType='application/json'
-            )
-
-        msg = f" at {public_url_base}/registry.json" if public_url_base else ""
-        print(f"Cloud Sync: Live registry and Snapshot ({timestamp}) pushed to R2{msg}.")
+            data = f.read()
+            # The Timeline Archive
+            s3.put_object(Bucket=os.getenv('R2_BUCKET'), 
+                         Key=f"timeline/{folder_path}/registry_{timestamp}.json", 
+                         Body=data, ContentType='application/json')
+            # The Live Mirror
+            s3.put_object(Bucket=os.getenv('R2_BUCKET'), Key='registry.json', 
+                         Body=data, ContentType='application/json')
+        print(f"Cloud Sync: Registry Vaulted in timeline/{folder_path}/")
     except Exception as e:
         print(f"Cloud Sync Failed (JSON): {e}")
 
-    # 2. Upload Receipt (Visual Evidence)
-    if os.path.exists('.last_receipt'):
+    # 2. Upload Evidence (PNG + HTML)
+    if os.path.exists('.last_evidence'):
         try:
-            with open('.last_receipt', 'r') as f:
-                receipt_file = f.read().strip()
+            with open('.last_evidence', 'r') as f:
+                png_file, html_file = f.read().strip().split(',')
             
-            if os.path.exists(receipt_file):
-                with open(receipt_file, 'rb') as f:
-                    s3.put_object(
-                        Bucket=os.getenv('R2_BUCKET'),
-                        Key=f"receipts/{receipt_file}",
-                        Body=f,
-                        ContentType='image/png'
-                    )
-                print(f"Cloud Sync: Evidence {receipt_file} vaulted in R2.")
-                # Cleanup
-                os.remove(receipt_file)
-                os.remove('.last_receipt')
+            for file_path, sub_folder, mime in [(png_file, 'receipts', 'image/png'), 
+                                               (html_file, 'raw_source', 'text/html')]:
+                if os.path.exists(file_path):
+                    with open(file_path, 'rb') as f:
+                        s3.put_object(Bucket=os.getenv('R2_BUCKET'),
+                                     Key=f"{sub_folder}/{folder_path}/{file_path}",
+                                     Body=f, ContentType=mime)
+                    os.remove(file_path) # Cleanup factory floor
+            
+            os.remove('.last_evidence')
+            print("Cloud Sync: Visual and Source evidence vaulted.")
         except Exception as e:
             print(f"Cloud Sync Failed (Evidence): {e}")
-
-if __name__ == "__main__":
-    print("Starting Cloud Hydration...")
-    sync_to_r2()
-    # In the future, we add sync_to_postgres() here
