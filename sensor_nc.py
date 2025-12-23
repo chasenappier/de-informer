@@ -110,6 +110,7 @@ def capture_session():
                 "run_id": run_id,
                 "games": parsed_games,
                 "html_path": html_path,
+                "html_size_kb": len(html_content) / 1024,
                 "screenshot_path": screenshot_path,
                 "browser": browser # Handing off browser for DNA deep dives if needed
             }
