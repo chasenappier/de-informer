@@ -5,33 +5,31 @@ A high-reliability **Inventory Registry** that catalogs every scratch-off game p
 ## 🎯 Objective
 The Librarian tracks the "Identity" and "Static DNA" of every game. It is built on the **Truth-First** paradigm, capturing both Digital Data and Visual Evidence.
 
-- **Game GUID**: A permanent, random identifier for every game.
-- **Static DNA**: Overall Odds, Prize Tiers, and Total Prize counts.
-- **Visual Receipts**: A full-page screenshot is captured and vaulted every run (6 hrs).
+## 🏗️ The "Assembly Line" Architecture
+The system is decoupled into three distinct rooms to ensure data integrity and auditability:
 
-## 🛡️ The Notary (Logic)
-1. **Discovery**: Uses a headless browser (Playwright) to load the NC Lottery summary page.
-2. **Evidence Capture**: Takes a **Full-Page Screenshot** (The Receipt) and vaults it in R2.
-3. **Extraction**: Parses the HTML bones to update the `registry.json`.
-4. **Life Cycle Management**:
-   - **BIRTH**: New GUIDs are issued. Deep-dive to capture overall odds.
-   - **STASIS**: Registry updated with current state.
-   - **DEATH**: Games missing for 3 consecutive runs are marked as `RETIRED`.
-5. **Safety Brake**: Aborts if fewer than 40 games are found.
+1.  **🔍 The Sensor (`sensor_nc.py`)**: Responsible for looking at the website, capturing raw evidence (HTML/Screenshots), and extracting the raw "Bones" of the data.
+2.  **⚖️ The Notary (`notary.py`)**: The brain of the registry. It matches raw data to permanent **GUIDs**, manages the game lifecycle (Birth/Stasis/Death), and runs the **Integrity Checksum**.
+3.  **🏛️ The Vault (`vault.py`)**: Standardizes and syncs the session package to Cloudflare R2 for long-term storage and public mirrors.
 
-## 🛰️ Fleet Context (Decoupled Architecture)
-This component is **Cog 01**:
-*   **Librarian (This Repo)**: The Source of Truth for *Identity* and *Evidence*.
-*   **Visual Scout (Cog 02)**: (External) Captures and vaults high-res game art.
-*   **Accountant (Future)**: Will track granular *Inventory* changes using these GUIDs.
+## 🛡️ Truth-First Features
+- **Deterministic GUIDs**: Every game is issued a random, permanent UUID for life-long tracking.
+- **DNA Healing**: Automatically re-attempts to capture missing "Overall Odds" metadata in subsequent runs.
+- **Integrity Checksum**: Validates the "Total State Wealth" to prevent corrupted runs from ever overwriting the Source of Truth.
+- **Human Jitter**: Mimics natural user behavior with randomized delays and modern User-Agent rotation.
+
+## 📂 Standardized Vault (R2)
+Every run is tagged with a unique `RUN_ID`, and evidence is vaulted in an auditable directory tree:
+- `raw_html/YYYY/MM/raw_html_[RUN_ID].html`
+- `full_screenshot/YYYY/MM/screenshot_[RUN_ID].png`
+- `registry_history/YYYY/MM/registry_[RUN_ID].json`
+- `registry.json` (The "Live Mirror" at the bucket root)
 
 ## 🛠️ Stack
-- **Python**: Core logic.
+- **Python**: Core logic and orchestrator (`main.py`).
 - **Playwright**: Headless browser for visual evidence.
-- **BeautifulSoup4**: HTML parsing.
-- **GitHub Actions**: Automation every 6 hours.
-- **JSON Ledger**: `registry.json` acts as the repository database.
-- **Cloudflare R2**: Holds the "Receipt" screenshots and the public JSON mirror.
+- **GitHub Actions**: Automated periodic census (every 6 hrs).
+- **Cloudflare R2**: The permanent evidence vault.
 
 ---
-🚀 **Antigravity Handshake**: Connected and verified at 2025-12-22.
+🚀 **Antigravity Handshake**: Connected and verified. "Assembly Line" V1 Deployment complete.

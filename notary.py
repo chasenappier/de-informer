@@ -12,6 +12,24 @@ def slugify(text):
     text = re.sub(r'[\s_]+', '-', text).strip('-')
     return text
 
+def calculate_total_wealth(registry):
+    """
+    Sums up every prize in the registry to calculate the total state wealth.
+    Used as an integrity checksum.
+    """
+    total = 0
+    for gid, data in registry.items():
+        if data["status"] == "ACTIVE":
+            for prize in data.get("prizes", []):
+                try:
+                    # Convert "$1,000,000" to 1000000
+                    val = int(re.sub(r'[^\d]', '', prize['value']))
+                    count = int(prize['total'])
+                    total += (val * count)
+                except (ValueError, KeyError):
+                    continue
+    return total
+
 def process_audit(parsed_games, run_id):
     """
     Room 2: The Notary.
@@ -30,8 +48,28 @@ def process_audit(parsed_games, run_id):
     else:
         registry = {}
 
-    live_ids = {g['game_id'] for g in parsed_games}
+    # --- INTEGRITY CHECKSUM (Improvement 1) ---
+    old_wealth = calculate_total_wealth(registry)
     
+    # Temporarily update registry in memory to check new wealth
+    temp_registry = registry.copy()
+    for game in parsed_games:
+        gid = game['game_id']
+        if gid in temp_registry:
+            temp_registry[gid]["prizes"] = game["prizes"]
+            temp_registry[gid]["status"] = "ACTIVE"
+        else:
+            temp_registry[gid] = {"prizes": game["prizes"], "status": "ACTIVE"}
+
+    new_wealth = calculate_total_wealth(temp_registry)
+    
+    # If wealth drops by more than 25% in a single run, something is wrong with the scrape
+    if old_wealth > 0 and new_wealth < (old_wealth * 0.75):
+        print(f"!!! [Notary] Integrity Failure: Wealth dropped from {old_wealth} to {new_wealth}. ABORTING.")
+        return None
+
+    # Continue with actual update...
+    live_ids = {g['game_id'] for g in parsed_games}
     for game in parsed_games:
         gid = game['game_id']
         p_slug = slugify(game['game_name'])
