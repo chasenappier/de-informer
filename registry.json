@@ -5,7 +5,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "1000000-triple-play",
@@ -68,7 +68,8 @@
         "odds": "10",
         "total": "734620"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "995": {
     "game_id": "995",
@@ -76,7 +77,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "200000-triple-play",
@@ -144,7 +145,8 @@
         "odds": "12",
         "total": "563064"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "994": {
     "game_id": "994",
@@ -152,7 +154,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "25000-triple-play",
@@ -220,7 +222,8 @@
         "odds": "11.54",
         "total": "592967"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "993": {
     "game_id": "993",
@@ -228,7 +231,7 @@
     "ticket_price": "$1",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "5000-triple-play",
@@ -291,7 +294,8 @@
         "odds": "12",
         "total": "698240"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "992": {
     "game_id": "992",
@@ -299,7 +303,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "2-million-vault",
@@ -367,7 +371,8 @@
         "odds": "9.23",
         "total": "562052"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "991": {
     "game_id": "991",
@@ -375,7 +380,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "spicy-hot-riches",
@@ -443,7 +448,8 @@
         "odds": "11.11",
         "total": "604999"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "990": {
     "game_id": "990",
@@ -451,7 +457,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "lady-luck",
@@ -509,7 +515,8 @@
         "odds": "12.5",
         "total": "523569"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "989": {
     "game_id": "989",
@@ -517,7 +524,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "maximum-money-blowout",
@@ -540,7 +547,8 @@
         "odds": "13.34",
         "total": "370713"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "988": {
     "game_id": "988",
@@ -548,7 +556,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "emarld-10s",
@@ -611,7 +619,8 @@
         "odds": "9.37",
         "total": "785567"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "987": {
     "game_id": "987",
@@ -619,7 +628,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "prize-link-multiplier",
@@ -687,7 +696,8 @@
         "odds": "12",
         "total": "514075"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "986": {
     "game_id": "986",
@@ -695,7 +705,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "hit-100",
@@ -748,7 +758,8 @@
         "odds": "11.76",
         "total": "577584"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "985": {
     "game_id": "985",
@@ -756,7 +767,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "max-a-million",
@@ -829,7 +840,8 @@
         "odds": "10",
         "total": "910010"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "984": {
     "game_id": "984",
@@ -837,7 +849,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "lucky-loteria",
@@ -905,7 +917,8 @@
         "odds": "9.23",
         "total": "523959"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "983": {
     "game_id": "983",
@@ -913,7 +926,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "lucky-50s",
@@ -941,7 +954,8 @@
         "odds": "14.12",
         "total": "430309"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "982": {
     "game_id": "982",
@@ -949,7 +963,7 @@
     "ticket_price": "$1",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "lucky-7s",
@@ -1027,7 +1041,8 @@
         "odds": "12.5",
         "total": "827976"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "981": {
     "game_id": "981",
@@ -1035,7 +1050,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "50x-the-cash",
@@ -1108,7 +1123,8 @@
         "odds": "9.37",
         "total": "1054183"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "980": {
     "game_id": "980",
@@ -1116,7 +1132,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "20x-the-cash",
@@ -1179,7 +1195,8 @@
         "odds": "10.91",
         "total": "1067714"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "979": {
     "game_id": "979",
@@ -1187,7 +1204,7 @@
     "ticket_price": "$3",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "15x-cashword",
@@ -1265,7 +1282,8 @@
         "odds": "11.11",
         "total": "657755"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "978": {
     "game_id": "978",
@@ -1273,7 +1291,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "10x-the-cash",
@@ -1341,7 +1359,8 @@
         "odds": "12",
         "total": "710816"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "977": {
     "game_id": "977",
@@ -1349,7 +1368,7 @@
     "ticket_price": "$1",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "5x-the-cash",
@@ -1412,7 +1431,8 @@
         "odds": "12",
         "total": "953429"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "976": {
     "game_id": "976",
@@ -1420,7 +1440,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "100x-the-cash",
@@ -1488,7 +1508,8 @@
         "odds": "10",
         "total": "616224"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "975": {
     "game_id": "975",
@@ -1496,7 +1517,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "1-million-money-rush",
@@ -1559,7 +1580,8 @@
         "odds": "10",
         "total": "541742"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "974": {
     "game_id": "974",
@@ -1567,7 +1589,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "200000-money-rush",
@@ -1630,7 +1652,8 @@
         "odds": "11.11",
         "total": "439177"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "973": {
     "game_id": "973",
@@ -1638,7 +1661,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "super-7-11-21",
@@ -1706,7 +1729,8 @@
         "odds": "11.54",
         "total": "576748"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "972": {
     "game_id": "972",
@@ -1714,7 +1738,7 @@
     "ticket_price": "$50",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "8-million-money-maker",
@@ -1777,7 +1801,8 @@
         "odds": "6.32",
         "total": "2408533"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "971": {
     "game_id": "971",
@@ -1785,7 +1810,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "diamond-10x",
@@ -1848,7 +1873,8 @@
         "odds": "11.11",
         "total": "599871"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "959": {
     "game_id": "959",
@@ -1856,7 +1882,7 @@
     "ticket_price": "$3",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "loteria",
@@ -1939,7 +1965,8 @@
         "odds": "11.11",
         "total": "834385"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "952": {
     "game_id": "952",
@@ -1947,7 +1974,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "millionaire-bucks",
@@ -2015,7 +2042,8 @@
         "odds": "10",
         "total": "1111635"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "951": {
     "game_id": "951",
@@ -2023,7 +2051,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "win-big",
@@ -2086,7 +2114,8 @@
         "odds": "9.23",
         "total": "562006"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "950": {
     "game_id": "950",
@@ -2094,7 +2123,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "cash-plus",
@@ -2162,7 +2191,8 @@
         "odds": "11.54",
         "total": "576611"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "949": {
     "game_id": "949",
@@ -2170,7 +2200,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "xtreme-cashword",
@@ -2243,7 +2273,8 @@
         "odds": "10",
         "total": "1030666"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "948": {
     "game_id": "948",
@@ -2251,7 +2282,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "jumbo-bucks",
@@ -2319,7 +2350,8 @@
         "odds": "10",
         "total": "1118271"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "947": {
     "game_id": "947",
@@ -2327,7 +2359,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "mega-bucks",
@@ -2385,7 +2417,8 @@
         "odds": "12",
         "total": "925859"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "946": {
     "game_id": "946",
@@ -2393,7 +2426,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "junior-big-ol-bucks",
@@ -2446,7 +2479,8 @@
         "odds": "11.54",
         "total": "1155858"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "944": {
     "game_id": "944",
@@ -2454,7 +2488,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "50000-payout",
@@ -2502,7 +2536,8 @@
         "odds": "9.37",
         "total": "593360"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "943": {
     "game_id": "943",
@@ -2510,7 +2545,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "1000000-cashword",
@@ -2583,7 +2618,8 @@
         "odds": "10",
         "total": "484074"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "940": {
     "game_id": "940",
@@ -2591,7 +2627,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "supreme-7s",
@@ -2659,7 +2695,8 @@
         "odds": "12",
         "total": "754188"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "939": {
     "game_id": "939",
@@ -2667,7 +2704,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "80-million-cash-blowout",
@@ -2690,7 +2727,8 @@
         "odds": "15",
         "total": "766318"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "935": {
     "game_id": "935",
@@ -2698,7 +2736,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "500-loaded",
@@ -2736,7 +2774,8 @@
         "odds": "12",
         "total": "1017888"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "932": {
     "game_id": "932",
@@ -2744,7 +2783,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "instant-millions",
@@ -2807,7 +2846,8 @@
         "odds": "9.23",
         "total": "749537"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "929": {
     "game_id": "929",
@@ -2815,7 +2855,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "ultimate-dash",
@@ -2878,7 +2918,8 @@
         "odds": "10",
         "total": "806338"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "928": {
     "game_id": "928",
@@ -2886,7 +2927,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "400000-jackpot",
@@ -2954,7 +2995,8 @@
         "odds": "10.91",
         "total": "943593"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "925": {
     "game_id": "925",
@@ -2962,7 +3004,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "200x-the-cash",
@@ -3040,7 +3082,8 @@
         "odds": "10",
         "total": "1481259"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "917": {
     "game_id": "917",
@@ -3048,7 +3091,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "2000000-diamond-deluxe",
@@ -3116,7 +3159,8 @@
         "odds": "9.24",
         "total": "665083"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "913": {
     "game_id": "913",
@@ -3124,7 +3168,7 @@
     "ticket_price": "$50",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "10-million-spectacular",
@@ -3187,7 +3231,8 @@
         "odds": "9.37",
         "total": "1736454"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "904": {
     "game_id": "904",
@@ -3195,7 +3240,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "power-20s",
@@ -3263,7 +3308,8 @@
         "odds": "8.57",
         "total": "864669"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "892": {
     "game_id": "892",
@@ -3271,7 +3317,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "black-titanium",
@@ -3339,7 +3385,8 @@
         "odds": "12",
         "total": "992422"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "884": {
     "game_id": "884",
@@ -3347,7 +3394,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "2000000-riches",
@@ -3415,7 +3462,8 @@
         "odds": "8.57",
         "total": "837290"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "876": {
     "game_id": "876",
@@ -3423,7 +3471,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "5000000-ultimate",
@@ -3491,7 +3539,8 @@
         "odds": "10",
         "total": "1667619"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "868": {
     "game_id": "868",
@@ -3499,7 +3548,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "100x-the-cash",
@@ -3567,7 +3616,8 @@
         "odds": "9.23",
         "total": "1606572"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "24": {
     "game_id": "24",
@@ -3575,7 +3625,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "200x-the-cash",
@@ -3653,7 +3703,8 @@
         "odds": "10",
         "total": "777874"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "23": {
     "game_id": "23",
@@ -3661,7 +3712,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "10-monopoly",
@@ -3724,7 +3775,8 @@
         "odds": "10",
         "total": "542982"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "22": {
     "game_id": "22",
@@ -3732,7 +3784,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "5-monopoly",
@@ -3795,7 +3847,8 @@
         "odds": "11.54",
         "total": "535101"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "21": {
     "game_id": "21",
@@ -3803,7 +3856,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "winter-winfall",
@@ -3866,7 +3919,8 @@
         "odds": "10.01",
         "total": "145572"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "20": {
     "game_id": "20",
@@ -3874,7 +3928,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "merry-and-bright-blowout",
@@ -3897,7 +3951,8 @@
         "odds": "15",
         "total": "229612"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "19": {
     "game_id": "19",
@@ -3905,7 +3960,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "holiday-cashword",
@@ -3978,7 +4033,8 @@
         "odds": "10",
         "total": "370600"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "18": {
     "game_id": "18",
@@ -3986,7 +4042,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "peppermint-payout",
@@ -4054,7 +4110,8 @@
         "odds": "10",
         "total": "405947"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "17": {
     "game_id": "17",
@@ -4062,7 +4119,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "white-elephant",
@@ -4120,7 +4177,8 @@
         "odds": "11.54",
         "total": "362919"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "16": {
     "game_id": "16",
@@ -4128,7 +4186,7 @@
     "ticket_price": "$1",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "holiday-100s",
@@ -4181,7 +4239,8 @@
         "odds": "11.11",
         "total": "558682"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "15": {
     "game_id": "15",
@@ -4189,7 +4248,7 @@
     "ticket_price": "$50",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "ultimate-blowout",
@@ -4212,7 +4271,8 @@
         "odds": "10",
         "total": "332805"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "14": {
     "game_id": "14",
@@ -4220,7 +4280,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "magnificent-millions",
@@ -4268,7 +4328,8 @@
         "odds": "11.54",
         "total": "437999"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "13": {
     "game_id": "13",
@@ -4276,7 +4337,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "high-voltage-cash",
@@ -4339,7 +4400,8 @@
         "odds": "11.43",
         "total": "527121"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "12": {
     "game_id": "12",
@@ -4347,7 +4409,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "cash-drop",
@@ -4415,7 +4477,8 @@
         "odds": "11.54",
         "total": "596424"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "11": {
     "game_id": "11",
@@ -4423,7 +4486,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "1-million-bonus-match",
@@ -4491,7 +4554,8 @@
         "odds": "9.99",
         "total": "740360"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "10": {
     "game_id": "10",
@@ -4499,7 +4563,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "double-your-money",
@@ -4557,7 +4621,8 @@
         "odds": "7.5",
         "total": "807221"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "9": {
     "game_id": "9",
@@ -4565,7 +4630,7 @@
     "ticket_price": "$2",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "spooky-loot",
@@ -4628,7 +4693,8 @@
         "odds": "12.5",
         "total": "375015"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "8": {
     "game_id": "8",
@@ -4636,7 +4702,7 @@
     "ticket_price": "$20",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "ruby-red-7s",
@@ -4704,7 +4770,8 @@
         "odds": "9.99",
         "total": "512573"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "7": {
     "game_id": "7",
@@ -4712,7 +4779,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "cashword-king",
@@ -4785,7 +4852,8 @@
         "odds": "10",
         "total": "483501"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "6": {
     "game_id": "6",
@@ -4793,7 +4861,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "jurassic-park",
@@ -4851,7 +4919,8 @@
         "odds": "11.54",
         "total": "441667"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "5": {
     "game_id": "5",
@@ -4859,7 +4928,7 @@
     "ticket_price": "$1",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "50-frenzy",
@@ -4912,7 +4981,8 @@
         "odds": "11.54",
         "total": "802221"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "4": {
     "game_id": "4",
@@ -4920,7 +4990,7 @@
     "ticket_price": "$30",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "carolina-black-premier",
@@ -4983,7 +5053,8 @@
         "odds": "12",
         "total": "615468"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "3": {
     "game_id": "3",
@@ -4991,7 +5062,7 @@
     "ticket_price": "$10",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "hot-2000",
@@ -5039,7 +5110,8 @@
         "odds": "10",
         "total": "613941"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "2": {
     "game_id": "2",
@@ -5047,7 +5119,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "loteria-fiesta",
@@ -5135,7 +5207,8 @@
         "odds": "10",
         "total": "732764"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   },
   "1": {
     "game_id": "1",
@@ -5143,7 +5216,7 @@
     "ticket_price": "$5",
     "status": "ACTIVE",
     "first_seen": "2025-12-21T15:48:20.110926",
-    "last_seen": "2025-12-22T23:52:08.015949",
+    "last_seen": "2025-12-23T01:34:15.816724",
     "miss_count": 0,
     "death_date": null,
     "url_slug": "5-times-lucky",
@@ -5206,6 +5279,7 @@
         "odds": "11.54",
         "total": "527202"
       }
-    ]
+    ],
+    "last_run_id": "run_20251223_0134_6994"
   }
 }
