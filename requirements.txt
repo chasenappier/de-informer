@@ -4,3 +4,7 @@ boto3
 requests
 pytest
 pyyaml
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+opentelemetry-instrumentation

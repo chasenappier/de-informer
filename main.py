@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+from opentelemetry import trace
 from sensor_nc import capture_session, fetch_game_dna
 from notary import process_audit
 from vault import upload_to_vault
@@ -108,5 +109,19 @@ def start_librarian():
 
 
 
+from telemetry import setup_telemetry
+
+# Initialize Telemetry Global
+tracer = setup_telemetry("inventory-registry")
+
 if __name__ == "__main__":
-    start_librarian()
+    with tracer.start_as_current_span("run_census") as span:
+        try:
+            start_librarian()
+            span.set_status(trace.Status(trace.StatusCode.OK))
+        except Exception as e:
+            span.record_exception(e)
+            span.set_status(trace.Status(trace.StatusCode.ERROR, str(e)))
+            logger.error("Fatal error in main loop", extra={"error": str(e)})
+            sys.exit(1)
+
