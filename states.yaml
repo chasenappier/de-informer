@@ -1,0 +1,22 @@
+# State Configuration
+# Define which states to monitor and their schedules
+
+states:
+  - code: NC
+    enabled: true
+    schedule: "0 */6 * * *"  # Every 6 hours
+    cost_per_run: 0.02
+    priority: 1
+
+  # Future states (disabled for now)
+  # - code: TX
+  #   enabled: false
+  #   schedule: "0 */12 * * *"
+  #   cost_per_run: 0.02
+  #   priority: 2
+  
+  # - code: CA
+  #   enabled: false
+  #   schedule: "0 0 * * *"  # Daily
+  #   cost_per_run: 0.03
+  #   priority: 3

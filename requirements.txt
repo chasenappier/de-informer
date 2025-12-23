@@ -1,4 +1,6 @@
-requests
+playwright
 beautifulsoup4
 boto3
-playwright
+requests
+pytest
+pyyaml

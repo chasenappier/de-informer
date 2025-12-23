@@ -10,3 +10,6 @@ env.bak/
 venv.bak/
 .vscode/
 .idea/
+metrics.json
+.pytest_cache/
+__pycache__/

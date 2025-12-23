@@ -1,8 +1,13 @@
 import os
 import sys
+import time
 from sensor_nc import capture_session, fetch_game_dna
 from notary import process_audit
 from vault import upload_to_vault
+from logger import setup_logger
+from metrics import export_metrics
+
+logger = setup_logger(__name__)
 
 # Configuration
 DEEP_DIVE_LIMIT = 5
@@ -12,11 +17,12 @@ def start_librarian():
     The Conductor. Orchestrates the Sensor, Notary, and Vault.
     Includes a 3-strike retry loop for stability.
     """
-    print("=== LIBRARIAN FLEET: CENSUS START ===")
+    start_time = time.time()
+    logger.info("Census starting", extra={"event": "census_start"})
     
     max_strikes = 3
     for strike in range(1, max_strikes + 1):
-        print(f"--- Attempt {strike} of {max_strikes} ---")
+        logger.info(f"Retry attempt {strike}/{max_strikes}", extra={"event": "retry_attempt", "strike": strike})
         
         # 1. Room 1: The Sensor
         capture = capture_session()
@@ -32,14 +38,13 @@ def start_librarian():
         registry = process_audit(games, run_id, html_size_kb=html_size)
         
         if registry is None:
-            print(f"!!! Audit Failed on Strike {strike}.")
+            logger.warning(f"Audit failed on strike {strike}", extra={"event": "audit_failed", "strike": strike})
             if strike < max_strikes:
-                print("Initiating Self-Repair: New session in 10 seconds...")
-                import time
+                logger.info("Initiating self-repair", extra={"event": "self_repair_start", "delay_seconds": 10})
                 time.sleep(10)
                 continue
             else:
-                print("CRITICAL: All attempts failed. Librarian is Blind.")
+                logger.error("All attempts exhausted", extra={"event": "census_failed", "strikes": max_strikes})
                 sys.exit(1)
 
         # If we reach here, we have a Verified Truth.
@@ -62,15 +67,45 @@ def start_librarian():
         )
         
         # Cleanup the temporary archive file
-        if os.path.exists(archive_registry):
-            os.remove(archive_registry)
-            
+        
+        duration_ms = int((time.time() - start_time) * 1000)
+        
+        
+        # Send heartbeat to monitoring service (if configured)
+        heartbeat_url = os.getenv('HEARTBEAT_URL')
+        if heartbeat_url:
+            try:
+                import requests
+                requests.get(heartbeat_url, timeout=5)
+                logger.info("Heartbeat sent", extra={"event": "heartbeat_success"})
+            except Exception as e:
+                logger.warning(f"Heartbeat failed: {e}", extra={"event": "heartbeat_failed", "error": str(e)})
+        
+        # Export metrics for observability
+        export_metrics(run_id, {
+            "event": "census_complete",
+            "duration_ms": duration_ms,
+            "game_count": len(games),
+            "html_size_kb": html_size,
+            "vault_success": sync_success
+        })
+        
         if sync_success:
-            print(f"=== LIBRARIAN FLEET: RUN {run_id} SUCCESS ===")
-            return # Successful exit
+            logger.info("Census completed successfully", extra={
+                "event": "census_success",
+                "run_id": run_id,
+                "duration_ms": duration_ms,
+                "game_count": len(games)
+            })
+            return
         else:
-            print(f"=== LIBRARIAN FLEET: RUN {run_id} COMPLETED (Vault Warning) ===")
-            return # Success but with warnings
+            logger.warning("Census completed with vault warnings", extra={
+                "event": "census_partial_success",
+                "run_id": run_id,
+                "duration_ms": duration_ms
+            })
+            return
+
 
 
 if __name__ == "__main__":

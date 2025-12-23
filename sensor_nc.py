@@ -6,6 +6,9 @@ import uuid
 from datetime import datetime
 from bs4 import BeautifulSoup
 from user_agents import get_random_user_agent
+from logger import setup_logger
+
+logger = setup_logger(__name__)
 
 TARGET_URL = "https://nclottery.com/scratch-off-prizes-remaining"
 SAFETY_THRESHOLD = 40
@@ -37,7 +40,7 @@ def capture_session():
     Captures raw evidence and extracts the 'Bones' of the registry.
     """
     run_id = f"run_{datetime.now().strftime('%Y%m%d_%H%M')}_{str(uuid.uuid4())[:4]}"
-    print(f"--- Starting Sensor Run: {run_id} ---")
+    logger.info("Sensor run starting", extra={"event": "sensor_start", "run_id": run_id})
     
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -49,7 +52,7 @@ def capture_session():
         page = context.new_page()
         
         try:
-            print(f"[Sensor] Navigating to {TARGET_URL}...")
+            logger.info("Navigating to target", extra={"event": "navigation_start", "url": TARGET_URL, "run_id": run_id})
             page.goto(TARGET_URL, timeout=60000, wait_until="networkidle")
             time.sleep(random.uniform(3, 5)) # Settle jitter
             
@@ -62,7 +65,13 @@ def capture_session():
             # 2. Capture Full Screenshot
             screenshot_path = f"screenshot_{run_id}.png"
             page.screenshot(path=screenshot_path, full_page=True)
-            print(f"[Sensor] Evidence captured: {html_path}, {screenshot_path}")
+            logger.info("Evidence captured", extra={
+                "event": "evidence_captured",
+                "run_id": run_id,
+                "html_path": html_path,
+                "screenshot_path": screenshot_path,
+                "html_size_kb": round(len(html_content) / 1024, 2)
+            })
             
             # 3. Extract Game Data
             soup = BeautifulSoup(html_content, 'html.parser')
@@ -117,7 +126,7 @@ def capture_session():
             }
         
         except Exception as e:
-            print(f"[Sensor] Run Failed: {e}")
+            logger.error("Sensor run failed", extra={"event": "sensor_failed", "run_id": run_id, "error": str(e)})
             return None
 
 
