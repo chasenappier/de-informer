@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISSION CONTROL // REGISTRY</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg: #0d0d0d;
+            --term-green: #00ff41;
+            --term-dim: #008f11;
+            --alert: #ff0055;
+            --text: #e0e0e0;
+            --card: #1a1a1a;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 { color: var(--term-green); text-transform: uppercase; letter-spacing: 2px; }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--term-dim); padding-bottom: 10px; margin-bottom: 20px; }
+        .status-dot { height: 12px; width: 12px; background-color: var(--term-dim); border-radius: 50%; display: inline-block; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { opacity: 0.5; } 50% { opacity: 1; box-shadow: 0 0 10px var(--term-green); } 100% { opacity: 0.5; } }
+        
+        .config-box { background: var(--card); padding: 15px; border: 1px dashed var(--term-dim); margin-bottom: 20px; }
+        input { background: #000; border: 1px solid var(--term-dim); color: var(--term-green); padding: 5px; width: 300px; font-family: inherit; }
+        button { background: var(--term-dim); color: #000; border: none; padding: 5px 15px; cursor: pointer; font-weight: bold; font-family: inherit; }
+        button:hover { background: var(--term-green); }
+
+        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: var(--card); padding: 15px; border: 1px solid #333; }
+        .kpi-value { font-size: 2em; font-weight: bold; color: var(--term-green); }
+        .kpi-label { font-size: 0.8em; color: #888; text-transform: uppercase; }
+
+        canvas { max-height: 250px; }
+        
+        .raw-data { margin-top: 40px; font-size: 0.8em; color: #666; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Inventory Registry // Mission Control</h1>
+        <div>SYSTEM STATUS: <span class="status-dot"></span> ONLINE</div>
+    </div>
+
+    <div class="config-box" id="configPanel">
+        <label>R2 PUBLIC BUCKET URL:</label>
+        <input type="text" id="r2Url" placeholder="https://pub-xxxxxxxx.r2.dev">
+        <button onclick="saveAndLoad()">CONNECT</button>
+        <div id="connectionStatus" style="font-size: 0.8em; margin-top: 5px;"></div>
+    </div>
+
+    <div id="mainDashboard" style="display:none;">
+        <div class="dashboard-grid">
+            <div class="card">
+                <div class="kpi-label">Current State Wealth</div>
+                <div class="kpi-value" id="totalWealth">$-.--</div>
+            </div>
+            <div class="card">
+                <div class="kpi-label">Active Games</div>
+                <div class="kpi-value" id="activeGames">--</div>
+            </div>
+            <div class="card">
+                <div class="kpi-label">Latest Run ID</div>
+                <div class="kpi-value" style="font-size: 1em;" id="runId">waiting...</div>
+            </div>
+        </div>
+
+        <div class="dashboard-grid" style="margin-top: 20px; grid-template-columns: 2fr 1fr;">
+            <div class="card">
+                <h3>Wealth Velocity</h3>
+                <canvas id="wealthChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Vital Signs (Birth/Death)</h3>
+                <canvas id="vitalChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="dashboard-grid" style="margin-top: 20px;">
+             <div class="card">
+                <h3>System Performance (Latency)</h3>
+                <canvas id="perfChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const r2Input = document.getElementById('r2Url');
+        const statusDiv = document.getElementById('connectionStatus');
+        
+        // Init
+        const savedUrl = localStorage.getItem('r2_url');
+        if (savedUrl) {
+            r2Input.value = savedUrl;
+            loadData(savedUrl);
+        }
+
+        function saveAndLoad() {
+            let url = r2Input.value.trim();
+            if (url.endsWith('/')) url = url.slice(0, -1); // Remove trailing slash
+            localStorage.setItem('r2_url', url);
+            loadData(url);
+        }
+
+        async function loadData(baseUrl) {
+            statusDiv.innerHTML = "Establishing link...";
+            statusDiv.style.color = "#999";
+            
+            try {
+                // Fetch Pulse History
+                const pulseRes = await fetch(`${baseUrl}/pulse_history.json?t=${Date.now()}`); // Cache bust
+                if (!pulseRes.ok) throw new Error("Failed to fetch pulse_history.json");
+                const pulseData = await pulseRes.json();
+                
+                // Fetch Metrics
+                const metricsRes = await fetch(`${baseUrl}/metrics.json?t=${Date.now()}`);
+                const metricsData = metricsRes.ok ? await metricsRes.json() : [];
+
+                renderDashboard(pulseData, metricsData);
+                
+                document.getElementById('mainDashboard').style.display = 'block';
+                statusDiv.innerHTML = "LINK ESTABLISHED";
+                statusDiv.style.color = "#00ff41";
+
+            } catch (e) {
+                console.error(e);
+                statusDiv.innerHTML = `CONNECTION FAILED: ${e.message}. Check CORS or URL.`;
+                statusDiv.style.color = "#ff0055";
+            }
+        }
+
+        function formatMoney(amount) {
+            return '$' + amount.toLocaleString();
+        }
+
+        function renderDashboard(pulse, metrics) {
+            const latest = pulse[pulse.length - 1];
+            
+            document.getElementById('totalWealth').innerText = formatMoney(latest.total_wealth);
+            document.getElementById('activeGames').innerText = latest.game_count;
+            document.getElementById('runId').innerText = latest.run_id;
+
+            // Prepare Data
+            const labels = pulse.map(p => new Date(p.timestamp).toLocaleDateString() + ' ' + new Date(p.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}));
+            const wealth = pulse.map(p => p.total_wealth);
+            const births = pulse.map(p => p.birth_count || 0);
+            const deaths = pulse.map(p => p.death_count || 0);
+            
+            // Wealth Chart
+            new Chart(document.getElementById('wealthChart'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Total Wealth',
+                        data: wealth,
+                        borderColor: '#00ff41',
+                        backgroundColor: 'rgba(0, 255, 65, 0.1)',
+                        tension: 0.1,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { grid: { color: '#333' } },
+                        x: { display: false }
+                    }
+                }
+            });
+
+            // Vital Chart
+            new Chart(document.getElementById('vitalChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Deaths', data: deaths, backgroundColor: '#ff0055' },
+                        { label: 'Births', data: births, backgroundColor: '#00ccff' }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true, grid: { color: '#333' } },
+                        x: { display: false }
+                    }
+                }
+            });
+
+            // Performance Chart (if metrics exist)
+            if (metrics.length > 0) {
+                 const perfLabels = metrics.map(m => new Date(m.timestamp).toLocaleTimeString());
+                 const duration = metrics.map(m => m.duration_ms);
+                 
+                 new Chart(document.getElementById('perfChart'), {
+                    type: 'line',
+                    data: {
+                        labels: perfLabels,
+                        datasets: [{
+                            label: 'Run Duration (ms)',
+                            data: duration,
+                            borderColor: '#FFA500',
+                            tension: 0.4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: { beginAtZero: true, grid: { color: '#333' } },
+                            x: { display: false }
+                        }
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

@@ -30,7 +30,9 @@ def upload_to_vault(run_id, html_path, screenshot_path, registry_path="registry.
         # (local_path, r2_folder, mime_type)
         (html_path, "raw_html", "text/html"),
         (screenshot_path, "full_screenshot", "image/png"),
-        (registry_path, "registry_history", "application/json")
+        (registry_path, "registry_history", "application/json"),
+        ("pulse_history.json", "telemetry_history", "application/json"),
+        ("metrics.json", "telemetry_history", "application/json")
     ]
 
     try:
@@ -38,24 +40,32 @@ def upload_to_vault(run_id, html_path, screenshot_path, registry_path="registry.
             if os.path.exists(local):
                 # Standardized Name: folder/YYYY/MM/filename
                 # For registry_history, we keep the original filename which includes run_id
-                r2_key = f"{folder}/{date_path}/{local}"
+                r2_key = f"{folder}/{date_path}/{os.path.basename(local)}"
                 
-                # Special case: The Live Root Mirror
-                if folder == "registry_history":
-                    # Also update the root registry.json
-                    s3.upload_file(local, bucket, "registry.json", ExtraArgs={'ContentType': mime})
-                    # The archive name should include the timestamp/run_id properly
-                    archive_name = f"registry_{run_id}.json"
-                    r2_key = f"registry_history/{date_path}/{archive_name}"
+                # Special case: The Live Root Mirror (Registry & Telemetry)
+                if folder in ["registry_history", "telemetry_history"]:
+                    # Also update the root file (e.g., registry.json, pulse_history.json)
+                    root_filename = "registry.json" if folder == "registry_history" else local
+                    s3.upload_file(local, bucket, root_filename, ExtraArgs={'ContentType': mime})
+                    
+                    if folder == "registry_history":
+                        # The archive name should include the timestamp/run_id properly
+                        archive_name = f"registry_{run_id}.json"
+                        r2_key = f"registry_history/{date_path}/{archive_name}"
+                    elif folder == "telemetry_history":
+                        # Archive telemetry with run_id
+                        archive_name = f"{os.path.splitext(local)[0]}_{run_id}.json"
+                        r2_key = f"{folder}/{date_path}/{archive_name}"
 
                 s3.upload_file(local, bucket, r2_key, ExtraArgs={'ContentType': mime})
                 print(f"  [Vault] Uploaded {local} -> {r2_key}")
                 
-                # Cleanup local evidence files (but keep registry.json for Git)
-                if local != registry_path:
+                # Cleanup local evidence files (but keep registry/telemetry for Git/Next Run)
+                if local not in [registry_path, "pulse_history.json", "metrics.json"]:
                     os.remove(local)
             else:
-                print(f"  [Vault] Warning: {local} not found.")
+                if local not in ["pulse_history.json", "metrics.json"]: # Optional files
+                    print(f"  [Vault] Warning: {local} not found.")
 
         print("[Vault] Sync Complete.")
         return True
