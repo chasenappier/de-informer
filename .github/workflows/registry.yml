@@ -31,11 +31,8 @@ jobs:
       - name: Install Playwright Browsers
         run: playwright install chromium --with-deps
 
-      - name: Run Master Registry Census (Evidence-Based)
-        run: python registry.py
-
-      - name: Cloud Hydration (R2 Sync)
-        run: python sync.py
+      - name: Run Librarian Fleet (Census + Vault)
+        run: python main.py
         env:
           R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
