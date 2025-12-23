@@ -106,19 +106,21 @@ def capture_session():
                         "prizes": prizes
                     })
             
+            # Browser will be closed when context manager exits
+            # DNA healing moved to notary.py or handled in separate pass
             return {
                 "run_id": run_id,
                 "games": parsed_games,
                 "html_path": html_path,
                 "html_size_kb": len(html_content) / 1024,
-                "screenshot_path": screenshot_path,
-                "browser": browser # Handing off browser for DNA deep dives if needed
+                "screenshot_path": screenshot_path
             }
-
+        
         except Exception as e:
             print(f"[Sensor] Run Failed: {e}")
-            browser.close()
             return None
+
+
 
 if __name__ == "__main__":
     # Test run
