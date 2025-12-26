@@ -12,4 +12,7 @@ venv.bak/
 .idea/
 metrics.json
 .pytest_cache/
-__pycache__/
+
+# Temp run files (these go to R2, not git)
+raw_html_run_*.html
+screenshot_run_*.png
