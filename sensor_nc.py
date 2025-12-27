@@ -154,9 +154,10 @@ def capture_session():
                     })
                     
                     # Return as dict for backwards compatibility with notary.py
+                    # Use mode='json' to convert Decimals to JSON-serializable types
                     return {
                         "run_id": run_id,
-                        "games": [g.model_dump() for g in parsed_games],
+                        "games": [g.model_dump(mode='json') for g in parsed_games],
                         "html_path": html_path,
                         "html_size_kb": len(html_content) / 1024,
                         "screenshot_path": screenshot_path,

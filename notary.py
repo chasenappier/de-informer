@@ -27,11 +27,19 @@ def calculate_total_wealth(registry):
         if data["status"] == "ACTIVE":
             for prize in data.get("prizes", []):
                 try:
-                    # Convert "$1,000,000" to 1000000
-                    val = int(re.sub(r'[^\d]', '', prize['value']))
-                    count = int(prize['total'])
+                    # Handle both Pydantic models (Decimal/int) and legacy string data
+                    val = prize['value']
+                    if isinstance(val, str):
+                        val = int(re.sub(r'[^\d]', '', val))
+                    else:
+                        val = int(val)  # Convert Decimal to int
+                    
+                    count = prize['total']
+                    if isinstance(count, str):
+                        count = int(count)
+                    
                     total += (val * count)
-                except (ValueError, KeyError):
+                except (ValueError, KeyError, TypeError):
                     continue
     return total
 
@@ -46,10 +54,20 @@ def calculate_top_prize_sum(registry):
             try:
                 # The first prize in the list is usually the top prize
                 top_prize = data["prizes"][0]
-                val = int(re.sub(r'[^\d]', '', top_prize['value']))
-                count = int(top_prize['total'])
+                
+                # Handle both Pydantic models (Decimal/int) and legacy string data
+                val = top_prize['value']
+                if isinstance(val, str):
+                    val = int(re.sub(r'[^\d]', '', val))
+                else:
+                    val = int(val)  # Convert Decimal to int
+                
+                count = top_prize['total']
+                if isinstance(count, str):
+                    count = int(count)
+                
                 total += (val * count)
-            except (ValueError, KeyError, IndexError):
+            except (ValueError, KeyError, IndexError, TypeError):
                 continue
     return total
 
