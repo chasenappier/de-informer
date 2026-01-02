@@ -69,8 +69,9 @@ registry.json (live mirror at root)
 | **Runtime** | Python 3.10+ |
 | **Browser** | Playwright (Chromium headless) |
 | **Parsing** | BeautifulSoup4 |
+| **Validation** | Pydantic |
 | **Storage** | Cloudflare R2 (S3-compatible) |
-| **Automation** | GitHub Actions (6-hour cron) |
+| **Automation** | GitHub Actions (4-hour cron) |
 | **Monitoring** | Better Uptime + JSON logs |
 | **Testing** | pytest |
 

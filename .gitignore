@@ -16,3 +16,7 @@ metrics.json
 # Temp run files (these go to R2, not git)
 raw_html_run_*.html
 screenshot_run_*.png
+registry_run_*.json
+delta_*.json
+changelog_temp.json
+.last_registry_hash
