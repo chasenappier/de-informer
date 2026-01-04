@@ -258,5 +258,15 @@
     "birth_count": 0,
     "death_count": 0,
     "html_size_kb": 999.4130859375
+  },
+  {
+    "run_id": "run_20260104_0454_18d9",
+    "timestamp": "2026-01-04T04:54:34.043723",
+    "game_count": 74,
+    "total_wealth": 6173403399,
+    "top_prize_sum": 469203700,
+    "birth_count": 0,
+    "death_count": 0,
+    "html_size_kb": 999.4140625
   }
 ]
